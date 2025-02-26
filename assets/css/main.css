@@ -620,7 +620,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   color: #d5c6c6;
-  background-color: #1aa810;
+  background-color: #1d2225;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -733,17 +733,17 @@ table tfoot td {
 }
 
 .post, .article-page {
-  background-color: #1d2225;
+  background-color: #2b2f31;
 }
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
-  color: #097bed;
+  color: #252526;
 }
 
 ::selection {
   background: rgba(38, 57, 89, 0.8);
-  color: #097bed;
+  color: #252526;
 }
 
 .clearfix::before, .clearfix::after {
@@ -774,7 +774,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #097bed;
+  background-color: #252526;
 }
 
 .about {
@@ -1107,7 +1107,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
-  background-color: #097bed;
+  background-color: #252526;
   padding: 0 20px 20px;
 }
 .blog-tags h1 {
