@@ -407,7 +407,7 @@ template {
 }
 
 .highlighter-rouge {
-  color: #F07171; /* A slightly more vibrant red */
+  color: #FFFFFF; /* A slightly more vibrant red */
   font-weight: 400;
   border: 1px solid #455A64; /* Darker border */
   -webkit-border-radius: 3px;
@@ -521,11 +521,11 @@ template {
 }
 
 .highlight .s {
-  color: #FFC107; /* Amber for strings */
+  color: #22e054; /* light green for strings */
 }
 
 .highlight .na {
-  color: #64B5F6; /* Blue for name attributes */
+  color: #cf29b1; /* Pink for name attributes */
 }
 
 .highlight .nb {
@@ -533,11 +533,11 @@ template {
 }
 
 .highlight .nc {
-  color: #4CAF50; /* Green for name class */
+  color: #ebdb2f; /* Yellow for name class */
 }
 
 .highlight .no {
-  color: #FFEB3B; /* Yellow for name constant */
+  color: #8d7ef4; /* Blue for name constant */
 }
 
 .highlight .nd {
@@ -553,7 +553,7 @@ template {
 }
 
 .highlight .nf {
-  color: #FF9800; /* Amber for name function */
+  color: #8d7ef4; /* Amber for name function */
 }
 
 .highlight .nl {
@@ -855,7 +855,6 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #efe0e0;
 }
 .about img {
   width: 100%;
