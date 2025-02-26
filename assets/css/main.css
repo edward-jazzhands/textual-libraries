@@ -1009,8 +1009,8 @@ footer .copyright {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(94, 96, 101, 0.15);
-          box-shadow: 0 1px 1px 0 rgba(94, 96, 101, 0.15);
+  -webkit-box-shadow: 0 1px 1px 0 rgb(0, 0, 0);
+          box-shadow: 0 1px 1px 0 rgb(0, 0, 0);
 }
 .post:hover {
   -webkit-transform: translate(0px, -2px);
@@ -1261,9 +1261,9 @@ a.newer-posts:hover {
             justify-content: space-between;
     width: 100%;
     padding: 10px;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+    background-color: #2b2f31;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(164, 179, 222, 0.2);
+            box-shadow: 0 1px 1px 0 rgba(164, 179, 222, 0.2);
   }
   .sidebar footer {
     margin-bottom: 10px;
