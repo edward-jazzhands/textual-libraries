@@ -2,6 +2,7 @@
 layout: main
 ---
 {% for post in paginator.posts %}
+{% unless post.hidden %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -14,6 +15,7 @@ layout: main
     <span class="post-words">{{ post.author }}</span>
   </div>
 </article>
+{% endunless %}
 {% endfor %}
 
 {% include pagination.html %}

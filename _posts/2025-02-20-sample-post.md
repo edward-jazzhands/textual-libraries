@@ -7,11 +7,10 @@ date: 2025-02-20
 tags: [TUI, Terminal, Linux]
 # description is only for metadata / SEO
 description: This is for metadata and potential SEO
+hidden: true
 ---
 
 ## This is a hidden file for testing styling
-
-Post submissions must go in the _posts folder.
 
 ## Example Python
 
