@@ -52,6 +52,14 @@ blockquote {
   color: $body-text-color;
 }
 
+navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #000;
+}
+
 intro_text {
   font-size: 1.5rem;
   font-weight: 300;

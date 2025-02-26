@@ -717,7 +717,28 @@ blockquote {
   padding-left: 1.1rem;
   margin-left: 1rem;
   font-style: italic;
+  color: #e8dfdf;
+}
+
+navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #000;
+}
+
+intro_text {
+  font-size: 1.5rem;
+  font-weight: 300;
   color: #c8c2c2;
+  margin-bottom: 2rem;
 }
 
 pre {
