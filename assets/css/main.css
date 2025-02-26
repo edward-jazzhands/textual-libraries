@@ -1089,7 +1089,7 @@ a.newer-posts:hover {
 .header-page .page-author {
   font-weight: 400;
   margin: 0 0 10px;
-  line-height: 1;
+  font-size: 14px;
 }
 .header-page .page-date {
   color: #e8dfdf;
