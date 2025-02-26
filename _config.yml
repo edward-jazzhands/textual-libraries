@@ -4,13 +4,12 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/textual-libraries"   # the subpath of your site, e.g. /blog
 url: "http://edward-jazzhands.github.io" 
-site-twitter:   #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Textual Libraries
 author-img: logo.jpg
 about-author: >
-  A collection of libraries and plugins for the Textual framework.
+  A community-run collection of libraries and plugins for the Textual framework.
   <br><br>
   For submissions, please head to the GitHub repository.
 social-twitter:  # add your Twitter handle
@@ -18,6 +17,8 @@ social-facebook: # add your Facebook handle
 social-github: edward-jazzhands/textual-libraries
 social-linkedin: # add your Linkedin handle
 social-email: # add your Email address
+
+keywords: "textual,tui,libraries,plugins,framework,terminal,python"
 
 # Disqus
 # discus-identifier: 
@@ -32,7 +33,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 8
+paginate: 30
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
