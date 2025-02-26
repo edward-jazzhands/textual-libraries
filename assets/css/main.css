@@ -485,7 +485,7 @@ template {
 }
 
 .highlight .gu {
-  color: #EEEEEE; /* Very light gray for subheadings */
+  color: #cc2727; /* Red */
 }
 
 .highlight .gt {
@@ -553,11 +553,11 @@ template {
 }
 
 .highlight .nf {
-  color: #8d7ef4; /* Amber for name function */
+  color: #8d7ef4; /* Purple for name function */
 }
 
 .highlight .nl {
-  color: #9575CD; /* Purple for name label */
+  color: #b75de1; /* Violet for name label */
 }
 
 .highlight .nn {
@@ -1098,7 +1098,7 @@ a.newer-posts:hover {
   padding: 0;
   margin: 0;
   max-height: 500px;
-  background-color: #616263;
+  background-color: #2b2f31;
   overflow: hidden;
 }
 .page-cover-image figure {
@@ -1141,7 +1141,7 @@ a.newer-posts:hover {
 .page-footer .page-share a {
   display: inline-block;
   text-decoration: none;
-  background-color: #616263;
+  background-color: #2b2f31;
   border: 1px solid #3b3b3b;
   padding: 5px 10px;
   margin-left: 5px;

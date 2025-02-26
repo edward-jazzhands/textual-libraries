@@ -15,21 +15,24 @@ It can also write or update in real time - It can be tied to an Input or TextAre
 
 See the Github page for full information and to give it a star if you find it useful.
 
-## GITHUB:
+## GITHUB
 
-https://github.com/edward-jazzhands/textual-pyfiglet
+[https://github.com/edward-jazzhands/textual-pyfiglet](https://github.com/edward-jazzhands/textual-pyfiglet)
 
 ## DEMO:
 
 ![Demo GIF](https://raw.githubusercontent.com/edward-jazzhands/textual-pyfiglet/refs/heads/main/demo.gif)
 
-## INSTALLATION:
+## INSTALLATION
 
-Base package - includes 10 fonts (71kb):   
-```
+Base package - includes 10 fonts (71kb):
+
+```sh
 pip install textual-pyfiglet
 ```
-Install with extended fonts collection - 519 fonts (1.6mb):   
-```
+
+Install with extended fonts collection - 519 fonts (1.6mb):
+
+```sh
 pip install textual-pyfiglet[fonts]
 ```
