@@ -9,7 +9,7 @@
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: $white;
+  background-color: $article-background;
 }
 .about {
   margin: 0 0 40px;
@@ -50,7 +50,7 @@
       width: 7px;
       height: 7px;
       border-radius: 100%;
-      background-color: $body-color;
+      background-color: $body-text-color;
     }
   }
   p {
@@ -86,7 +86,7 @@
       position: absolute;
       top: 50%;
       left: 0;
-      background-color: $body-color;
+      background-color: $body-text-color;
     }
     &::after {
       content: "";
@@ -97,7 +97,7 @@
       position: absolute;
       top: 50%;
       right: 0;
-      background-color: $body-color;
+      background-color: $body-text-color;
     }
   }
   ul {
@@ -112,7 +112,7 @@
         margin-left: 0;
       }
       a {
-        color: $body-color;
+        color: $body-text-color;
         display: block;
         padding: 5px;
         font-size: 18px;
@@ -173,7 +173,7 @@ footer {
       a {
         font-family: 'PT Serif', serif;
         text-decoration: none;
-        color: $dark-blue;
+        color: $light-blue;
       }
     }
     p {
@@ -185,7 +185,7 @@ footer {
 a.older-posts, a.newer-posts {
   font-size: 18px;
   display: inline-block;
-  color: $body-color;
+  color: $body-text-color;
   transition: transform .2s;
 }
 

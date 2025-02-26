@@ -12,8 +12,8 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  color: $body-color;
-  background-color: $background-color;
+  color: $body-text-color;
+  background-color: $main-background;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,6 +21,12 @@ body {
 
 h1 {
   font-weight: 400;
+}
+
+a {
+  color: $light-blue;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 img {
@@ -66,25 +72,25 @@ pre {
 
 table {
   border: 1px solid #aaa;
-  background-color: #eee;
+  background-color: #383333;
   width: 100%;
   text-align: left;
   border-collapse: collapse;
 }
 table td, table.blueTable th {
-  border: 1px solid #aaa;
+  border: 1px solid #363d41;
   padding: 3px 2px;
 }
 table tbody td {
   font-size: 13px;
 }
 table tr:nth-child(even) {
-  background: #adbecc;
+  background: #363d41;
 }
 table thead {
-  background: #a9c4d1;
-  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
-  border-bottom: 1px solid #8c8c8c;
+  background: #676c6e;
+  background: linear-gradient(to bottom, #565a5c 0%, #444749 66%, #343738 100%);
+  border-bottom: 1px solid #b1a9a9;
 }
 table thead th {
   font-size: 14px;
@@ -100,8 +106,8 @@ table tfoot {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  background: #d0e4f5;
-  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: #676c6e;
+  background: linear-gradient(to bottom, #565a5c 0%, #444749 66%, #343738 100%);
   border-top: 2px solid #444;
 }
 table tfoot td {
@@ -119,12 +125,12 @@ table tfoot td {
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
-  color: $white;
+  color: $article-background;
 }
 
 ::selection {
   background: rgba(38, 57, 89, 0.8);
-  color: $white;
+  color: $article-background;
 }
 
 .clearfix::before, .clearfix::after {
