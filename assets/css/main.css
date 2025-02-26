@@ -737,19 +737,23 @@ blockquote {
 .nav-links a {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; /* Change from block to flex */
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; /* Center items vertically */
-  height: 2.5rem; /* Set a fixed height */
-  padding: 0 1rem; /* Adjust horizontal padding */
-  color: #333;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; /* Center text horizontally */
+  height: 2.5rem;
+  padding: 0 1rem;
+  color: #e8dfdf;
   text-decoration: none;
   font-weight: 500;
   border-left: 3px solid transparent;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  text-align: center; /* Additional text centering */
 }
 
 .nav-links a:hover, .nav-links a.active {
