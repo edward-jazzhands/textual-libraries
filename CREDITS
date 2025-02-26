@@ -1,0 +1,31 @@
+# CREDITS
+
+**Website Template** - Licensed under the GNU General Public License v3.0
+Original author: Artem Sheludko
+Repository: [flexible-jekyll][repo-link]
+My forked repository: [Your forked repo link]
+
+**Technologies Used:** Jekyll, Sassy CSS, Gulp
+
+**Modifications:**
+
+- Updated Gulp to v4.0.2 to address compatibility issues with modern Node.js versions.
+- Updated Gulp Sass to v5.1.0 for compatibility with the updated Gulp version.
+- Implemented a comprehensive dark mode using CSS variables for easy customization.
+- Added a user selectable dark mode toggle.
+- Added a navigation bar in the menu.
+- Implemented an external articles page. This page dynamically generates links from the external\_posts.yml data file, allowing for easy management of external resources.
+- Modified the contact favicon bar to only show Github.
+- Enhanced theme customizability by adding extensive CSS variables, allowing for easy color and style adjustments.
+- Added a 404.html page.
+
+**Why:**
+
+This template was chosen due to its clean minimalist design. However, it was outdated and lacked modern features. This project was undertaken to update the template to modern web development standards, and to add useful features.
+
+## LICENSE
+
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
+
+[repo-link]: https://github.com/artemsheludko/flexible-jekyll
+[Your forked repo link]: https://edward-jazzhands.github.io/textual-libraries

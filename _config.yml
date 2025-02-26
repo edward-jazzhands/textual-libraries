@@ -11,11 +11,8 @@ author-img: logo.jpg
 about-author: >
   A community-run collection of libraries, widgets, and plugins for the Textual framework,
   to help you make better Textual applications.
-social-twitter:  # add your Twitter handle
-social-facebook: # add your Facebook handle
+
 social-github: edward-jazzhands/textual-libraries
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
 
 keywords: "textual,tui,libraries,plugins,framework,terminal,python"
 
