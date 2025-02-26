@@ -12,8 +12,9 @@ title: Articles
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h2>
-    <span class="post-date">Submitted {{ post.date }}&nbsp;&nbsp;&nbsp;by&nbsp;</span>
-    <span class="post-words">{{ post.author }}</span>
+    <p>{{ post.summary }}</p>
+    <span class="post-date">{{ post.date }}&nbsp;&nbsp;&nbsp;-&nbsp;</span>
+    <span class="post-words">Written by {{ post.author }}</span>
   </div>
 </article>
 {% endfor %}
