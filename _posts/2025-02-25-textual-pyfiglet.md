@@ -1,6 +1,7 @@
 ---
 layout: post
 title: textual-pyfiglet
+author: Edward Jazzhands
 date: 2025-02-25
 img: posts/textual-pyfiglet.png
 tags: [BigText, ASCII]
