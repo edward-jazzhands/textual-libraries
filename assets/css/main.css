@@ -735,9 +735,15 @@ blockquote {
 }
 
 .nav-links a {
-  display: block;
-  padding: 0.8rem 1rem;
-  color: #e8dfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* Change from block to flex */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; /* Center items vertically */
+  height: 2.5rem; /* Set a fixed height */
+  padding: 0 1rem; /* Adjust horizontal padding */
+  color: #333;
   text-decoration: none;
   font-weight: 500;
   border-left: 3px solid transparent;
@@ -747,7 +753,7 @@ blockquote {
 }
 
 .nav-links a:hover, .nav-links a.active {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.15);
   border-left: 3px solid #4a4a4a;
   -webkit-transform: translateX(5px);
       -ms-transform: translateX(5px);
