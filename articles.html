@@ -3,6 +3,10 @@ layout: main
 title: Articles
 ---
 
+<p class="intro_text">A collection of articles from around the internet made by TUI creators with a focus on Python.</p>
+
+{% for post in site.posts %}
+
 {% for post in site.data.external_posts %}
 <article class="post">
   {% if post.img %}

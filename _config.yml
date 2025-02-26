@@ -11,8 +11,6 @@ author-img: logo.jpg
 about-author: >
   A community-run collection of libraries, widgets, and plugins for the Textual framework,
   to help you make better Textual applications.
-  <br><br>
-  For submissions, please head to the GitHub repository.
 social-twitter:  # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: edward-jazzhands/textual-libraries
