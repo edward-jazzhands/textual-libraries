@@ -8,7 +8,7 @@ site-twitter:   #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Textual Libraries
-author-img: logo.png
+author-img: logo_no_circle.jpg
 about-author: A collection of libraries and plugins for the Textual framework.
 social-twitter:  # add your Twitter handle
 social-facebook: # add your Facebook handle
