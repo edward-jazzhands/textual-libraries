@@ -1,0 +1,17 @@
+---
+layout: main
+title: Articles
+---
+
+{% for post in site.data.external_posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{ "/assets/img/" | prepend: site.baseurl | append: post.img }})" href="{{ post.url }}" target="_blank"></a>
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h2>
+    <span class="post-date">Submitted {{ post.date }}&nbsp;&nbsp;&nbsp;by&nbsp;</span>
+    <span class="post-words">{{ post.author }}</span>
+  </div>
+</article>
+{% endfor %}
