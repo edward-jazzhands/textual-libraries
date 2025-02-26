@@ -737,7 +737,7 @@ blockquote {
 .nav-links a {
   display: block;
   padding: 0.8rem 1rem;
-  color: #333;
+  color: #e8dfdf;
   text-decoration: none;
   font-weight: 500;
   border-left: 3px solid transparent;
@@ -747,7 +747,7 @@ blockquote {
 }
 
 .nav-links a:hover, .nav-links a.active {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.1);
   border-left: 3px solid #4a4a4a;
   -webkit-transform: translateX(5px);
       -ms-transform: translateX(5px);
@@ -757,7 +757,7 @@ blockquote {
 .intro_text {
   font-size: 1.5rem;
   font-weight: 300;
-  color: #c8c2c2;
+  color: #e8dfdf;
   margin-bottom: 2rem;
 }
 
