@@ -620,7 +620,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   color: #515151;
-  background-color: #fbfbfb;
+  background-color: #1d2225;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -650,7 +650,7 @@ blockquote {
   padding-left: 1.1rem;
   margin-left: 1rem;
   font-style: italic;
-  color: #ada8a8;
+  color: #c8c2c2;
 }
 
 pre {
@@ -738,12 +738,12 @@ table tfoot td {
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
-  color: #18191a;
+  color: #242526;
 }
 
 ::selection {
   background: rgba(38, 57, 89, 0.8);
-  color: #18191a;
+  color: #242526;
 }
 
 .clearfix::before, .clearfix::after {
@@ -774,7 +774,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #18191a;
+  background-color: #242526;
 }
 
 .about {
@@ -1032,7 +1032,7 @@ a.newer-posts:hover {
   padding: 0;
   margin: 0;
   max-height: 500px;
-  background-color: #242526;
+  background-color: #616263;
   overflow: hidden;
 }
 .page-cover-image figure {
@@ -1075,7 +1075,7 @@ a.newer-posts:hover {
 .page-footer .page-share a {
   display: inline-block;
   text-decoration: none;
-  background-color: #242526;
+  background-color: #616263;
   border: 1px solid #3b3b3b;
   padding: 5px 10px;
   margin-left: 5px;
@@ -1107,7 +1107,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
-  background-color: #18191a;
+  background-color: #242526;
   padding: 0 20px 20px;
 }
 .blog-tags h1 {
@@ -1136,7 +1136,7 @@ a.newer-posts:hover {
   display: inline-block;
   padding: 5px 10px;
   border: 1px solid #3b3b3b;
-  background-color: #242526;
+  background-color: #616263;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
