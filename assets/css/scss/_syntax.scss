@@ -1,53 +1,267 @@
 .highlight {
-    background-color: #181719; // You've already changed this, which is good
+    background-color: #181719;
     border-radius: 3px;
     margin: 0;
-}
-
-.highlighter-rouge {
-    color: #ff9580; // Lighter version of your current color
+  }
+  
+  .highlighter-rouge {
+    color: #F07171; /* A slightly more vibrant red */
     font-weight: 400;
-    border: 1px solid #4f5b61; // Darker version of the border
+    border: 1px solid #455A64; /* Darker border */
     border-radius: 3px;
     padding: 0.1rem 0.5rem;
-}
-
-// Base colors
-.highlight {
-    .c, .c1, .cs { color: #6c7986; } // Comments - softer gray
-    .err { color: #ff6b6b; background-color: #3d2929; } // Errors
-    .k, .kc, .kd, .kn, .kp, .kr { color: #7aa2f7; } // Keywords - light blue
-    .kt { color: #6bb6c4; } // Keyword types
-    .o { color: #89ddff; } // Operators
-    .p { color: #cccccc; } // Punctuation
-    
-    // Strings
-    .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .sx { color: #9ecb6f; } // Strings - light green
-    .sr { color: #95e6cb; } // Regex
-    .si { color: #ff9580; } // String interpolation
-    .ss { color: #ffd76d; } // Symbol
-    
-    // Names
-    .na { color: #70c0b1; } // Name.Attribute
-    .nb { color: #b4b4b4; } // Name.Builtin
-    .nc { color: #7dcfff; } // Name.Class
-    .no { color: #f7768e; } // Name.Constant
-    
-    // Variables
-    .vc, .vg, .vi { color: #bb9af7; } // Variables
-    
-    // Numbers
-    .m, .il { color: #ff9e64; } // Numbers
-    
-    // Comments
-    .cm { color: #565f89; font-style: italic; } // Comment.Multiline
-    .cp { color: #73daca; } // Comment.Preproc
-    
-    // Generic
-    .gd { background-color: #3d2929; border: 1px solid #ff6b6b; } // Generic.Deleted
-    .gi { background-color: #2a3d2a; border: 1px solid #73daca; } // Generic.Inserted
-    .gh, .gu { color: #7dcfff; } // Generic.Heading, Generic.Subheading
-    .go { color: #888888; } // Generic.Output
-    .gp { color: #7aa2f7; } // Generic.Prompt
-    .gt { color: #f7768e; } // Generic.Traceback
-}
+  }
+  
+  .highlight .hll {
+    background-color: #37474F; /* Darker highlight */
+  }
+  
+  .highlight .c {
+    color: #607D8B; /* Lighter gray for comments */
+  }
+  
+  .highlight .err {
+    color: #FF5722; /* More vibrant error red */
+    background-color: #424242; /* Darker error background */
+  }
+  
+  .highlight .k {
+    color: #00BCD4; /* Teal for keywords */
+  }
+  
+  .highlight .o {
+    color: #90A4AE; /* Lighter gray for operators */
+  }
+  
+  .highlight .cm {
+    color: #607D8B; /* Lighter gray for multiline comments */
+    font-style: italic;
+  }
+  
+  .highlight .cp {
+    color: #78909C; /* Slightly different gray for preprocessor */
+  }
+  
+  .highlight .c1 {
+    color: #607D8B; /* Lighter gray for single-line comments */
+  }
+  
+  .highlight .cs {
+    color: #607D8B; /* Lighter gray for special comments */
+  }
+  
+  .highlight .gd {
+    background-color: #424242; /* Darker deleted background */
+    border: 1px solid #B71C1C; /* Darker deleted border */
+  }
+  
+  .highlight .ge {
+    font-style: italic;
+    color: #90A4AE; /* Lighter gray for emphasis */
+  }
+  
+  .highlight .gr {
+    color: #FF5722; /* More vibrant error red */
+  }
+  
+  .highlight .gh {
+    color: #EEEEEE; /* Very light gray for headings */
+  }
+  
+  .highlight .gi {
+    background-color: #424242; /* Darker inserted background */
+    border: 1px solid #4CAF50; /* Darker inserted border */
+  }
+  
+  .highlight .go {
+    color: #78909C; /* Lighter gray for output */
+  }
+  
+  .highlight .gp {
+    color: #64B5F6; /* Blue for prompts */
+  }
+  
+  .highlight .gs {}
+  
+  .highlight .gu {
+    color: #EEEEEE; /* Very light gray for subheadings */
+  }
+  
+  .highlight .gt {
+    color: #90A4AE; /* Lighter gray for traceback */
+  }
+  
+  .highlight .kc {
+    color: #00BCD4; /* Teal for keyword constants */
+  }
+  
+  .highlight .kd {
+    color: #00BCD4; /* Teal for keyword declarations */
+  }
+  
+  .highlight .kn {
+    color: #00BCD4; /* Teal for keyword namespaces */
+  }
+  
+  .highlight .kp {
+    color: #00BCD4; /* Teal for keyword pseudo */
+  }
+  
+  .highlight .kr {
+    color: #00BCD4; /* Teal for keyword reserved */
+  }
+  
+  .highlight .kt {
+    color: #009688; /* Darker teal for keyword type */
+  }
+  
+  .highlight .m {
+    color: #FF9800; /* Amber for numbers */
+  }
+  
+  .highlight .s {
+    color: #FFC107; /* Amber for strings */
+  }
+  
+  .highlight .na {
+    color: #64B5F6; /* Blue for name attributes */
+  }
+  
+  .highlight .nb {
+    color: #00BCD4; /* Teal for name builtin */
+  }
+  
+  .highlight .nc {
+    color: #4CAF50; /* Green for name class */
+  }
+  
+  .highlight .no {
+    color: #FFEB3B; /* Yellow for name constant */
+  }
+  
+  .highlight .nd {
+    color: #9575CD; /* Purple for name decorator */
+  }
+  
+  .highlight .ni {
+    color: #78909C; /* Lighter gray for name entity */
+  }
+  
+  .highlight .ne {
+    color: #FF5722; /* More vibrant error red */
+  }
+  
+  .highlight .nf {
+    color: #FF9800; /* Amber for name function */
+  }
+  
+  .highlight .nl {
+    color: #9575CD; /* Purple for name label */
+  }
+  
+  .highlight .nn {
+    color: #64B5F6; /* Blue for name namespace */
+  }
+  
+  .highlight .nt {
+    color: #00BCD4; /* Teal for name tag */
+  }
+  
+  .highlight .nv {
+    color: #00BCD4; /* Teal for name variable */
+  }
+  
+  .highlight .ow {
+    color: #90A4AE; /* Lighter gray for operator word */
+  }
+  
+  .highlight .w {
+    color: #424242; /* Darker whitespace */
+  }
+  
+  .highlight .mf {
+    color: #FF9800; /* Amber for literal number float */
+  }
+  
+  .highlight .mh {
+    color: #FF9800; /* Amber for literal number hex */
+  }
+  
+  .highlight .mi {
+    color: #FF9800; /* Amber for literal number integer */
+  }
+  
+  .highlight .mo {
+    color: #FF9800; /* Amber for literal number oct */
+  }
+  
+  .highlight .sb {
+    color: #FFC107; /* Amber for literal string backtick */
+  }
+  
+  .highlight .sc {
+    color: #FFC107; /* Amber for literal string char */
+  }
+  
+  .highlight .sd {
+    color: #FFC107; /* Amber for literal string doc */
+    font-style: italic;
+  }
+  
+  .highlight .s2 {
+    color: #FFC107; /* Amber for literal string double */
+  }
+  
+  .highlight .se {
+    color: #FFC107; /* Amber for literal string escape */
+  }
+  
+  .highlight .sh {
+    color: #FFC107; /* Amber for literal string heredoc */
+  }
+  
+  .highlight .si {
+    color: #FF5722; /* More vibrant error red */
+  }
+  
+  .highlight .sx {
+    color: #FFC107; /* Amber for literal string other */
+  }
+  
+  .highlight .sr {
+    color: #009688; /* Darker teal for literal string regex */
+  }
+  
+  .highlight .s1 {
+    color: #FFC107; /* Amber for literal string single */
+  }
+  
+  .highlight .ss {
+    color: #FFEB3B; /* Yellow for literal string symbol */
+  }
+  
+  .highlight .bp {
+    color: #00BCD4; /* Teal for name builtin pseudo */
+  }
+  
+  .highlight .vc {
+    color: #00BCD4; /* Teal for name variable class */
+  }
+  
+  .highlight .vg {
+    color: #00BCD4; /* Teal for name variable global */
+  }
+  
+  .highlight .vi {
+    color: #00BCD4; /* Teal for name variable instance */
+  }
+  
+  .highlight .il {
+    color: #FF9800; /* Amber for literal number integer long */
+  }
+  
+  .css .o,
+  .css .o + .nt,
+  .css .nt + .nt {
+    color: #90A4AE; /* Lighter gray for CSS specific */
+  }
