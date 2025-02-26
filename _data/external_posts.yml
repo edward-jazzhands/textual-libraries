@@ -4,3 +4,9 @@
   author: "Lars Grams"
   date: "2025-02-26"
   summary: "A TUI is a Text-based User Interface, which provides another way of interacting within the terminal besides writing plain text commands. There are several frameworks to build such TUIs, e.g. ratatui for Rust or textual for Python. In the following article, I will describe the development of a TUI using the textual framework."
+- title: "Using CSS to Style a Python TUI with Textual"
+  url: "https://www.blog.pythonlibrary.org/2023/11/15/using-css-to-style-a-python-tui-with-textual/"
+  img: articles/using_css_to_style_a_python_tui_3d.png
+  author: "Mike Driscoll"
+  date: "2023-11-15"
+  summary: "In this tutorial, you will learn how to create and style a form. The form won’t do anything, but this tutorial teaches how to add widgets, lay them out, and then give them some style."
