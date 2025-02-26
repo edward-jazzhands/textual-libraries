@@ -3,7 +3,7 @@ layout: post
 title: Sample Post
 author: John Doe
 date: 2025-02-20
-# img: posts/textual-pyfiglet.png
+img: posts/sample-post.png
 tags: [TUI, Terminal, Linux]
 # description is only for metadata / SEO
 description: This is for metadata and potential SEO

@@ -10,7 +10,7 @@ To make a submission:
 
 1) Fork the repo
 2) Make a copy of any post in the _posts folder. Follow the template and substitute in your own information.
-3) Place a screenshot of your library in assets/img/posts, and ensure it matches the img option in your post header.
+3) Place a screenshot of your library in assets/img/posts. Ensure the path matches the img option in your post header.
 4) Submit a PR with these changes.
 
 I'm hoping that if we all work together, we can make the perfect resource for people looking for third-party libraries, as well as give library creators a fancy venue for showcasing their libraries to other Textual creators.
