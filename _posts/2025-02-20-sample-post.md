@@ -7,7 +7,7 @@ img: posts/sample-post.png
 tags: [TUI, Terminal, Linux]
 # description is only for metadata / SEO
 description: This is for metadata and potential SEO
-hidden: true
+hidden: false
 ---
 
 ## This is a hidden file for testing styling
