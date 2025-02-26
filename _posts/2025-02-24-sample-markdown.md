@@ -4,6 +4,35 @@ title: Sample Markdown File
 date: 2025-02-24
 ---
 
+
+```python
+class GameEntry(Widget):
+
+    class GameSelected(Message):
+        """Posted by: entry_pressed in GameEntry. \n
+        Handled by: game_selected in TextualGames."""
+        def __init__(self, game_class: Type[Any]):
+            super().__init__()
+            self.Game_Class = game_class    # this is a reference to the class, not an instance.
+
+    def __init__(self, game_name: str, game_class: Type[Any], *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.game_name = game_name
+        self.Game_Class = game_class
+
+    def compose(self):
+        yield SimpleButton(self.game_name, classes="wide centered")
+
+    @on(SimpleButton.Pressed)
+    def entry_pressed(self, event: SimpleButton.Pressed):
+        self.log.info(f"Pressed: {self.game_name}")
+        self.post_message(self.GameSelected(self.Game_Class))
+
+    def focus(self):
+        self.query_one(SimpleButton).focus()
+```
+
+
 # h1 Heading 8-)
 ## h2 Heading
 ### h3 Heading
