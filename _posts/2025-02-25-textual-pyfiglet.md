@@ -3,7 +3,7 @@ layout: post
 title: textual-pyfiglet
 date: 2025-02-25
 description: A library that makes it easy to integrate PyFiglet into Textual. It adds a 'FigletWidget' that handles all the hard stuff for you.
-img: posts/textual-pyfiglet.jpg
+img: posts/textual-pyfiglet.png
 tags: [BigText, ASCII]
 ---
 
