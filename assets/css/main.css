@@ -400,14 +400,14 @@ template {
 }
 
 .highlight {
-  background-color: #faf9f9;
+  background-color: #181719;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   margin: 0;
 }
 
 .highlighter-rouge {
-  color: #ce887b;
+  color: #fb9b8a;
   font-weight: 400;
   border: 1px solid #607D8B;
   -webkit-border-radius: 3px;
@@ -619,7 +619,7 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  color: #d5c6c6;
+  color: #e8dfdf;
   background-color: #1d2225;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -738,12 +738,12 @@ table tfoot td {
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
-  color: #252526;
+  color: #2b2f31;
 }
 
 ::selection {
   background: rgba(38, 57, 89, 0.8);
-  color: #252526;
+  color: #2b2f31;
 }
 
 .clearfix::before, .clearfix::after {
@@ -774,7 +774,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #252526;
+  background-color: #2b2f31;
 }
 
 .about {
@@ -828,7 +828,7 @@ table tfoot td {
   height: 7px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
-  background-color: #d5c6c6;
+  background-color: #e8dfdf;
 }
 .about p {
   font-size: 16px;
@@ -872,7 +872,7 @@ table tfoot td {
   position: absolute;
   top: 50%;
   left: 0;
-  background-color: #d5c6c6;
+  background-color: #e8dfdf;
 }
 .contact .contact-title::after {
   content: "";
@@ -885,7 +885,7 @@ table tfoot td {
   position: absolute;
   top: 50%;
   right: 0;
-  background-color: #d5c6c6;
+  background-color: #e8dfdf;
 }
 .contact ul {
   margin: 0;
@@ -901,7 +901,7 @@ table tfoot td {
   margin-left: 0;
 }
 .contact ul li a {
-  color: #d5c6c6;
+  color: #e8dfdf;
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -986,7 +986,7 @@ footer .copyright {
 a.older-posts, a.newer-posts {
   font-size: 18px;
   display: inline-block;
-  color: #d5c6c6;
+  color: #e8dfdf;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   -o-transition: transform 0.2s;
@@ -1107,7 +1107,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
-  background-color: #252526;
+  background-color: #2b2f31;
   padding: 0 20px 20px;
 }
 .blog-tags h1 {
