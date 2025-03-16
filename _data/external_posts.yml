@@ -1,18 +1,37 @@
+- title: "Building PAR LLAMA: A Journey into Terminal based AI model management and chat"
+  url: "https://www.linkedin.com/pulse/building-par-llama-journey-terminal-based-ai-model-chat-paul-robello-shgac/"
+  img: articles/building_par_llama.png
+  author: "Paul Robello"
+  date: "2025-03-15"
+  summary: "Like many of my projects, PAR LLAMA started as an experiment—a way to learn something new. This time, I wanted to create a simpler way to manage Ollama models."
+
+- title: "Python Textual: Build Beautiful UIs in the Terminal"
+  url: "https://realpython.com/python-textual/"
+  img: articles/realpython_textual.png
+  author: "Charles de Villiers"
+  date: "2025-03-12"
+  summary: "Like many of my projects, PAR LLAMA started as an experiment—a way to learn something new. This time, I wanted to create a simpler way to manage Ollama models."
+
 - title: "A tui in a day"
   url: "https://zaloog.github.io/2025/02/26/tui-a-day.html"
   img: articles/a_tui_in_a_day.png
   author: "Lars Grams"
   date: "2025-02-26"
-  summary: "A TUI is a Text-based User Interface, which provides another way of interacting within the terminal besides writing plain text commands. There are several frameworks to build such TUIs, e.g. ratatui for Rust or textual for Python. In the following article, I will describe the development of a TUI using the textual framework."
+  summary: "Have you ever wanted to create an app with an appealing interface that works in the command line? Welcome to Textual, a Python toolkit and framework for creating beautiful, functional text-based user interface (TUI) applications."
+
 - title: "Using CSS to Style a Python TUI with Textual"
   url: "https://www.blog.pythonlibrary.org/2023/11/15/using-css-to-style-a-python-tui-with-textual/"
   img: articles/using_css_to_style_a_python_tui_3d.png
   author: "Mike Driscoll"
   date: "2023-11-15"
   summary: "In this tutorial, you will learn how to create and style a form. The form won’t do anything, but this tutorial teaches how to add widgets, lay them out, and then give them some style."
+
 - title: "Textual: The Definitive Guide - Part 1."
   url: "https://dev.to/wiseai/textual-the-definitive-guide-part-1-1i0p"
   img: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2FTextualize%2Ftextual%2Fmain%2Fimgs%2Ftextual.png"
   author: "Mahmoud Harmouch"
   date: "2023-04-03"
   summary: "This is part one of my series on demystifying every damn aspect of Textual. In this article, we are going to explore the not-so-popular world of text-based user interfaces and how to create one using Textual."
+
+
+  https://realpython.com/python-textual/
