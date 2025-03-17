@@ -5,6 +5,13 @@
   date: "2025-03-15"
   summary: "Like many of my projects, PAR LLAMA started as an experiment—a way to learn something new. This time, I wanted to create a simpler way to manage Ollama models."
 
+- title: "Improving Posting's startup time by over 40%"
+  url: "https://darren.codes/posts/python-startup-time/"
+  img: articles/improving_posting.png
+  author: "Darren Burns"
+  date: "2025-03-13"
+  summary: "I've been working on improving the startup time of Posting recently. Posting is a TUI application built with Textual, and written in Python, for managing and sending HTTP requests."
+
 - title: "Python Textual: Build Beautiful UIs in the Terminal"
   url: "https://realpython.com/python-textual/"
   img: articles/realpython_textual.png
