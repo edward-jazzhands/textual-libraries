@@ -19,7 +19,7 @@
   date: "2025-03-12"
   summary: "Have you ever wanted to create an app with an appealing interface that works in the command line? Welcome to Textual, a Python toolkit and framework for creating beautiful, functional text-based user interface (TUI) applications."
 
-- title: "A tui in a day"
+- title: "A TUI in a day"
   url: "https://zaloog.github.io/2025/02/26/tui-a-day.html"
   img: articles/a_tui_in_a_day.png
   author: "Lars Grams"
