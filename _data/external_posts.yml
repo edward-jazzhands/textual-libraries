@@ -35,7 +35,14 @@
 
 - title: "Textual: The Definitive Guide - Part 1."
   url: "https://dev.to/wiseai/textual-the-definitive-guide-part-1-1i0p"
-  img: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2FTextualize%2Ftextual%2Fmain%2Fimgs%2Ftextual.png"
+  img: "articles/textual_the_definitive_guide_1.png"
   author: "Mahmoud Harmouch"
   date: "2023-04-03"
   summary: "This is part one of my series on demystifying every damn aspect of Textual. In this article, we are going to explore the not-so-popular world of text-based user interfaces and how to create one using Textual."
+
+- title: "Running Textual on a framebuffer terminal emulator for Linux"
+  url: "https://bylr.info/articles/2022/10/29/til-textual-fb-term/"
+  img: "articles/running_textual_on_a_framebuffer.png"
+  author: "Antoine Beyeler"
+  date: "2022-10-29"
+  summary: "Ever since I first learned of the modern TUI framework Textual, I’ve been thinking of using it as a lightweight, kiosk-mode, touch-based HMI with minimal requirements for the underlying OS. All it needs is a terminal!"
