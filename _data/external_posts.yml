@@ -26,6 +26,13 @@
   date: "2025-02-26"
   summary: "A TUI is a Text-based User Interface, which provides another way of interacting within the terminal besides writing plain text commands. There are several frameworks to build such TUIs, e.g. ratatui for Rust or textual for Python. In the following article, I will describe the development of a TUI using the textual framework."
 
+- title: "Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
+  url: "https://www.freecodecamp.org/news/empire-state-building-run-up-analysis-with-python/"
+  img: articles/empire_state_run_up.png
+  author: "Jose Vicente Nunez"
+  date: "2024-05-08"
+  summary: "A tower running race is a race that you run up the stairs of a building. These happen around the world. I got the chance to participate in the Empire State Run Up in NYC, 2023 edition. A few days after finishing the race, I realized that I wanted to know more about my performance, and what I could have done to better."
+
 - title: "Using CSS to Style a Python TUI with Textual"
   url: "https://www.blog.pythonlibrary.org/2023/11/15/using-css-to-style-a-python-tui-with-textual/"
   img: articles/using_css_to_style_a_python_tui_3d.png
@@ -33,7 +40,14 @@
   date: "2023-11-15"
   summary: "In this tutorial, you will learn how to create and style a form. The form won't do anything, but this tutorial teaches how to add widgets, lay them out, and then give them some style."
 
-- title: "Textual: The Definitive Guide - Part 1."
+- title: "Textual for Beginners"
+  url: "https://mathspp.com/blog/textual-for-beginners"
+  img: "articles/textual_for_beginners_rodrigo.png"
+  author: "Rodrigo Girão Serrão"
+  date: "2023-07-17"
+  summary: "This tutorial will introduce beginners to the many features that Textual offers to build elegant and lightweight TUIs. This is an unofficial written version of a tutorial I gave at EuroPython 2023 in Prague."
+
+- title: "Textual: The Definitive Guide - Part 1"
   url: "https://dev.to/wiseai/textual-the-definitive-guide-part-1-1i0p"
   img: "articles/textual_the_definitive_guide_1.png"
   author: "Mahmoud Harmouch"
@@ -46,3 +60,5 @@
   author: "Antoine Beyeler"
   date: "2022-10-29"
   summary: "Ever since I first learned of the modern TUI framework Textual, I’ve been thinking of using it as a lightweight, kiosk-mode, touch-based HMI with minimal requirements for the underlying OS. All it needs is a terminal!"
+
+
