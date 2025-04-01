@@ -20,7 +20,6 @@
     if (data.pushed_at) {
       const updatedDate = new Date(data.pushed_at).toLocaleDateString();
       document.getElementById("last-updated-page").innerText = `Last updated: ${updatedDate}`;
-      document.getElementById("last-updated-index").innerText = `Last updated: ${updatedDate}`;
     }
     else { console.error("No last updated date found in the response."); }
   }

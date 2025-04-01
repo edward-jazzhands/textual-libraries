@@ -5,8 +5,7 @@ author: John Doe
 website: https://github.com/user_name/repo_name
 img: posts/sample-post.png
 tags: [TUI, Terminal, Linux]
-# description is only for metadata / SEO
-description: This is for metadata and SEO
+description: This is the description, used for both the front page summary and the SEO
 hidden: true
 ---
 

@@ -5,7 +5,6 @@ author: Edward Jazzhands
 website: https://github.com/edward-jazzhands/textual-pyfiglet
 img: posts/textual-pyfiglet.png
 tags: [BigText, ASCII]
-# description is only for metadata / SEO
 description: A library that makes it easy to integrate PyFiglet into Textual. It adds a 'FigletWidget' that handles all the hard stuff for you.
 ---
 
