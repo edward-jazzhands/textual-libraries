@@ -2,6 +2,7 @@
 layout: post
 title: Sample Post
 author: John Doe
+url: https://github.com/user_name/repo_name
 img: posts/sample-post.png
 tags: [TUI, Terminal, Linux]
 # description is only for metadata / SEO

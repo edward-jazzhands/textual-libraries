@@ -20,10 +20,17 @@
       const updatedDate = new Date(data.pushed_at).toLocaleDateString();
       document.getElementById("github-last-updated").innerText = `Last updated: ${updatedDate}`;
     }
+    else {
+      document.getElementById("github-last-updated").innerText = "Last updated: N/A";
+      console.error("No last updated date found in the response.");
+    }
   }
 
 if (it_is_github) {
     fetchLastUpdated(repoName);
-} 
+}
+else {
+    console.log("Not a GitHub repository.");
+}
     
 </script>
