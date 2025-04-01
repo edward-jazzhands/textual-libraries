@@ -1,2 +1,29 @@
 <!-- Main Js -->
 <script src="{{site.baseurl}}/assets/js/main.js"></script>
+
+<script>
+  const repoUrl = "{{ page.url }}";  
+  const it_is_github = repoUrl.includes("github.com");
+
+  const repoName = it_is_github ? repoUrl
+    .replace(/^https?:\/\//, '') // Remove protocol (http:// or https://)
+    .replace(/^www\./, '')       // Remove www.
+    .replace(/^github\.com\//, '') // Remove github.com/
+    .replace(/\/$/, '')          // Remove trailing slash if present
+    : "";
+
+  async function fetchLastUpdated(repo) {
+    const response = await fetch(`https://api.github.com/repos/${repo}`);
+    const data = await response.json();
+
+    if (data.pushed_at) {
+      const updatedDate = new Date(data.pushed_at).toLocaleDateString();
+      document.getElementById("github-last-updated").innerText = `Last updated: ${updatedDate}`;
+    }
+  }
+
+if (it_is_github) {
+    fetchLastUpdated(repoName);
+} 
+    
+</script>

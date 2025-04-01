@@ -2,12 +2,11 @@
 layout: post
 title: Sample Post
 author: John Doe
-date: 2025-02-20
 img: posts/sample-post.png
 tags: [TUI, Terminal, Linux]
 # description is only for metadata / SEO
-description: This is for metadata and potential SEO
-hidden: false
+description: This is for metadata and SEO
+hidden: true
 ---
 
 ## This is a hidden file for testing styling
