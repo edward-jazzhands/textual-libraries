@@ -2,7 +2,7 @@
 layout: post
 title: textual-pyfiglet
 author: Edward Jazzhands
-url: https://github.com/edward-jazzhands/textual-pyfiglet
+website: https://github.com/edward-jazzhands/textual-pyfiglet
 img: posts/textual-pyfiglet.png
 tags: [BigText, ASCII]
 # description is only for metadata / SEO
@@ -19,7 +19,7 @@ See the Github page for installation and to give it a star if you find it useful
 
 ## GITHUB
 
-[{{ page.url }}]({{ page.url }})
+[{{ page.website }}]({{ page.website }})
 
 ## DEMO
 
