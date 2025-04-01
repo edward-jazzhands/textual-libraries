@@ -11,8 +11,8 @@ layout: main
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
-    <span class="post-date">Submitted {{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;by&nbsp;</span>
-    <span class="post-words">{{ post.author }}</span>
+    <span class="post-date" id="last-updated-index">No Github Data</span>
+    <span class="post-words">Author: {{ post.author }}</span>
   </div>
 </article>
 {% endunless %}

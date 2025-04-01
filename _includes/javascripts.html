@@ -19,12 +19,10 @@
 
     if (data.pushed_at) {
       const updatedDate = new Date(data.pushed_at).toLocaleDateString();
-      document.getElementById("github-last-updated").innerText = `Last updated: ${updatedDate}`;
+      document.getElementById("last-updated-page").innerText = `Last updated: ${updatedDate}`;
+      document.getElementById("last-updated-index").innerText = `Last updated: ${updatedDate}`;
     }
-    else {
-      document.getElementById("github-last-updated").innerText = "Last updated: N/A";
-      console.error("No last updated date found in the response.");
-    }
+    else { console.error("No last updated date found in the response."); }
   }
 
 if (it_is_github) {
