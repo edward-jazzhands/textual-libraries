@@ -59,7 +59,7 @@ def normalize_lib_data(lib_dict: dict, official: bool) -> dict:
     for key, value in lib_dict.items():
         new_libraries_dict[key] = {
             "author": "John Doe",
-            "website": value[0],
+            "url": value[0],
             "img": f"libraries/{key}.png",
             "tags": [],
             "description": value[1],
