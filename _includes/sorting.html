@@ -1,0 +1,58 @@
+
+<script>
+
+    // Add this script to your layout file (or include as a separate JS file)
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get the container where posts are displayed
+      const postsContainer = document.querySelector('.posts-container'); // Adjust selector to match your HTML
+      
+      // Find all post elements
+      const posts = Array.from(document.querySelectorAll('.post'));
+      
+      // Add sort toggle button
+      const sortButton = document.createElement('button');
+      sortButton.textContent = 'Toggle Sort Order (A-Z)';
+      sortButton.className = 'sort-button';
+      
+      // Insert button before the posts container
+      postsContainer.parentNode.insertBefore(sortButton, postsContainer);
+      
+      // Sort state
+      let isAscending = true;
+      
+      // Function to sort and reorder posts
+      function sortPosts() {
+        // Sort posts by title
+        posts.sort((a, b) => {
+          const titleA = a.getAttribute('data-title').toLowerCase();
+          const titleB = b.getAttribute('data-title').toLowerCase();
+          
+          if (isAscending) {
+            return titleA.localeCompare(titleB);
+          } else {
+            return titleB.localeCompare(titleA);
+          }
+        });
+        
+        // Remove all posts from the container
+        posts.forEach(post => post.remove());
+        
+        // Add the sorted posts back to the container
+        posts.forEach(post => postsContainer.appendChild(post));
+        
+        // Update button text
+        sortButton.textContent = `Toggle Sort Order (${isAscending ? 'A-Z' : 'Z-A'})`;
+      }
+      
+      // Add click event to button
+      sortButton.addEventListener('click', function() {
+        isAscending = !isAscending;
+        sortPosts();
+      });
+      
+      // Initial sort
+      sortPosts();
+    });
+    
+</script>
+    

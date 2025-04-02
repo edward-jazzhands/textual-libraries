@@ -2,9 +2,10 @@
 
 This file is auto-generated from `get_truth.py`.
 It is not used directly, but it shows the data that is fetched.
-This list should match the files in the `_posts` directory.     
+This list will match the contents of `_data/libraries.yml`.
 
 ## Textualize libraries and tools
+                
 | Name | URL | Description |
 | --- | --- | --- |
 | pytest-textual-snapshot | https://github.com/Textualize/pytest-textual-snapshot | Snapshot testing for Textual applications. |
@@ -14,6 +15,7 @@ This list should match the files in the `_posts` directory.
 | textual-syntax-highlighter-for-neovim | https://github.com/cachebag/nvim-tcss | Enables syntax highlighting for Textual's CSS in NeoVim via Packer, Lazy or Vim-Plug. |
 
 ## Third-party libraries
+                
 | Name | URL | Description |
 | --- | --- | --- |
 | rich-pixels | https://github.com/darrenburns/rich-pixels | Display images in the terminal in your Textual applications. |

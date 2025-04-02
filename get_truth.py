@@ -3,12 +3,22 @@ from requests import Response
 import time
 import re
 from pathlib import Path
+import json
+import yaml
 
 from rich.console import Console
+from rich import traceback
+traceback.install(show_locals=True)
 console = Console()
 starting_time = time.time()
 
 url = 'https://github.com/Textualize/transcendent-textual/raw/refs/heads/main/README.md'
+
+class SpacedDumper(yaml.Dumper):
+    def write_line_break(self, data=None):
+        super().write_line_break(data)
+        if self.indent == 0:  # Add a blank line between top-level entries
+            super().write_line_break()
 
 
 def convert_response_to_dicts(response: Response) -> tuple[dict, dict]:
@@ -43,73 +53,96 @@ def convert_response_to_dicts(response: Response) -> tuple[dict, dict]:
     return textualize_libraries_dict, third_party_libraries_dict
 
 
-def create_files(lib_dict: dict, official: bool) -> None:
+def normalize_lib_data(lib_dict: dict, official: bool) -> dict:
 
+    new_libraries_dict = {}
     for key, value in lib_dict.items():
-        file_path = Path(f"_posts/1970-01-01-{key}.md")
-        if file_path.exists():
-            console.print(f"File {file_path} already exists. [red]Skipping...")
-            continue
-        else:
-            console.print(f"[green]Creating file[/green] {file_path}...")
-            with open(f"_posts/1970-01-01-{key}.md", "w") as f:
-                f.write(f"""---
-layout: post
-title: {key}
-author: ?
-website: {value[0]}
-img: posts/?
-tags: [{key}, TUI, Terminal, Textual, Libraries, Tools, CLI, Python, Rich, Textualize, Plugins]
-description: {value[1]}
-official: {official}
----
-
-## GITHUB
-[{{ page.website }}]({{ page.website }})
-"""
-)
+        new_libraries_dict[key] = {
+            "author": "John Doe",
+            "website": value[0],
+            "img": f"libraries/{key}.png",
+            "tags": [],
+            "description": value[1],
+            "official": official
+        }
+    return new_libraries_dict
 
 
-textualize_libraries_dict = {}
-third_party_libraries_dict = {}
+def merge_with_existing_data(libraries_dict: dict) -> None:
 
-try:
-    response = requests.get(url)
-except Exception as e:
-    console.print(f"\nAn error occurred making the get request: {e}")
-else:
-    if response.status_code == 200:
-        console.print("\nSuccessfully fetched the README.md file. Next stage... \n")
-        textualize_libraries_dict, third_party_libraries_dict = convert_response_to_dicts(response)
-        console.print(f"\nFinished successfully. Operation took {time.time() - starting_time} seconds. \n")
+    # json_file_path = Path("_data/libraries.json")
+    yaml_file_path = Path("_data/libraries.yml")        
+
+    added_count = 0
+    if yaml_file_path.exists():
+        with open(yaml_file_path, "r") as f:
+            existing_data = yaml.load(f, Loader=yaml.FullLoader)
+            for k, v in libraries_dict.items():
+                if k in existing_data:
+                    continue                  # skip libraries that are already in the file
+                else:
+                    existing_data.append(v)
+                    added_count += 1
     else:
-        console.print(f"\nGet request passed but returned wrong code. Status code: {response.status_code}")
+        existing_data = libraries_dict
+        added_count = len(libraries_dict)
+        console.print(f"File {yaml_file_path} does not exist. Creating new file...")
 
-if textualize_libraries_dict == {}:
-    raise ValueError("No data found in the response.")
-   
-create_files(textualize_libraries_dict, True)
-create_files(third_party_libraries_dict, False)
+    with open(yaml_file_path, "w") as f:
+        yaml.dump(existing_data, f, Dumper=SpacedDumper, indent=2)
 
+    console.print(f"Added {added_count} libraries to the file {yaml_file_path}.")
+    
 
-with open("libraries_list.md", "w") as f:
-    f.write("""# Libraries list
+def write_markdown_list(lib1: dict, lib2: dict) -> None:
+
+    with open("libraries_list.md", "w") as f:
+        f.write("""# Libraries list
 
 This file is auto-generated from `get_truth.py`.
 It is not used directly, but it shows the data that is fetched.
-This list should match the files in the `_posts` directory.     
+This list will match the contents of `_data/libraries.yml`.
 
 ## Textualize libraries and tools
+                
 | Name | URL | Description |
 | --- | --- | --- |
 """)
-    for key, value in textualize_libraries_dict.items():
-        f.write(f"| {key} | {value[0]} | {value[1]} |\n")
+        for key, value in lib1.items():
+            f.write(f"| {key} | {value[0]} | {value[1]} |\n")
 
-    f.write("""
+        f.write("""
 ## Third-party libraries
+                
 | Name | URL | Description |
 | --- | --- | --- |
 """)
-    for key, value in third_party_libraries_dict.items():
-        f.write(f"| {key} | {value[0]} | {value[1]} |\n")
+        for key, value in lib2.items():
+            f.write(f"| {key} | {value[0]} | {value[1]} |\n")
+
+
+###########################
+# Main script starts here #
+###########################
+
+response = None
+try:
+    response = requests.get(url)
+except Exception as e:
+    raise Exception(f"Error while fetching the URL: {url}. Error: {e}")
+
+if response.status_code == 200:
+    console.print("\nSuccessfully fetched the README.md file. Next stage... \n")
+    textualize_libraries_dict, third_party_libraries_dict = convert_response_to_dicts(response)
+else:
+    raise Exception(f"Get request passed but returned wrong code. Status code: {response.status_code}")
+
+normalized_textualize_libraries = normalize_lib_data(textualize_libraries_dict, True)
+normalized_third_party_libraries = normalize_lib_data(third_party_libraries_dict, False)
+
+merged_dict = {**normalized_textualize_libraries, **normalized_third_party_libraries}
+merge_with_existing_data(merged_dict)
+
+write_markdown_list(textualize_libraries_dict, third_party_libraries_dict)
+
+console.print(f"\nFinished successfully. Script took {time.time() - starting_time} seconds. \n")

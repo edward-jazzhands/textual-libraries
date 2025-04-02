@@ -2,21 +2,19 @@
 layout: main
 ---
 <p class="intro_text">This is a list of all libraries that are available for the Textual framework.
-This page is set to mirror the list on <a href="https://github.com/Textualize/transcendent-textual">Transcendent Textual</a>
+This page is set up to mirror the list on <a href="https://github.com/Textualize/transcendent-textual">Transcendent Textual</a>
 </p>
 
-{% include pagination.html %}
-
-{% assign sorted_posts = paginator.posts | sort: 'title' %}
+{% assign sorted_posts = site.data.libraries | sort: 'title' %}
 {% for post in sorted_posts %}
 {% unless post.hidden %}
 <article class="post">
   {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{ post.url | prepend: site.baseurl }}"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
     <p>{{ post.description }}</p>
     <span class="post-words">Author: {{ post.author }}</span><br>
     {% if post.official %}
@@ -27,4 +25,3 @@ This page is set to mirror the list on <a href="https://github.com/Textualize/tr
 {% endunless %}
 {% endfor %}
 
-{% include pagination.html %}
