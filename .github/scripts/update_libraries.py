@@ -64,30 +64,6 @@ def normalize_lib_data(lib_dict: dict, official: bool) -> dict:
     return new_libraries_dict
 
 
-def merge_with_existing_data(libraries_dict: dict) -> None:
-    "This will only add new libraries to the file, not update existing ones."
-
-    added_count = 0
-    if yaml_file_path.exists():
-        with open(yaml_file_path, "r") as f:
-            existing_data = yaml.load(f, Loader=yaml.FullLoader)
-            for k, v in libraries_dict.items():
-                if k in existing_data:
-                    continue                  # skip libraries that are already in the file
-                else:
-                    existing_data.append(v)
-                    added_count += 1
-    else:
-        existing_data = libraries_dict
-        added_count = len(libraries_dict)
-        print(f"File {yaml_file_path} does not exist. Creating new file...")
-
-    with open(yaml_file_path, "w") as f:
-        yaml.dump(existing_data, f, Dumper=SpacedDumper, indent=2)
-
-    print(f"Added {added_count} libraries to the file {yaml_file_path}.")
-    
-
 def write_markdown_list(lib1: dict, lib2: dict) -> None:
 
     with open("libraries_list.md", "w") as f:
@@ -140,11 +116,12 @@ except Exception as e:
 merged_dict = {**normalized_textualize_libraries, **normalized_third_party_libraries}
 
 try:
-    merge_with_existing_data(merged_dict)
+    with open(yaml_file_path, "w") as f:
+        yaml.dump(merged_dict, f, Dumper=SpacedDumper, indent=2)
 except Exception as e:
-    raise Exception(f"Error while merging with existing data: {e}")
+    raise Exception(f"Error while writing to yaml file: {e}")
 else:
-    print("Successfully merged with existing data. \n")
+    print(f"Successfully wrote to {yaml_file_path} \n")
 
 try:
     write_markdown_list(textualize_libraries_dict, third_party_libraries_dict)
