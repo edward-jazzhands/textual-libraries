@@ -9,18 +9,23 @@ This page is set up to mirror the list on <a href="https://github.com/Textualize
 
 {% for library_pair in sorted_libraries %}
 <article class="post">
+
   {% assign name = library_pair[0] %}
   {% assign lib_data = library_pair[1] %}
+  {% assign image_path = "/assets/img/" | append: lib_data.img %}
 
-  <!-- Issue is here: -->
-  <!-- Check if image exists on filesystem: -->
-  {% assign img_path = "/assets/img/" | append: lib_data.img %}
-
-  {% if lib_data.img and img_path | file_exists %}
+  {% assign image_found = false %}
+  {% for static_file in site.static_files %}
+    {% if static_file.path == image_path %}
+      {% assign image_found = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  
+  {% if image_found %}
     <a class="post-thumbnail"
     style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : lib_data.img }} )" 
     href="{{ lib_data.url }}"></a>
-  {% else %}
   {% endif %}
 
   <div class="post-content">
