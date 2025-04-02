@@ -12,7 +12,7 @@ on:
     types:
       - opened
   # Allow manual triggering
-  workflow_dispatch:
+  workflow_dispatch: 
 
     
 jobs:
@@ -57,4 +57,4 @@ jobs:
     needs: update-data
     uses: ./.github/workflows/jekyll.yml # Call the other workflow
     with:
-      trigger: 'true'
+      trigger: true

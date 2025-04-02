@@ -13,7 +13,8 @@ on:
       trigger:
         description: 'Trigger the workflow'
         required: true
-        default: 'true'
+        default: true
+        type: boolean
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

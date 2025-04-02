@@ -46,4 +46,4 @@ jobs:
     needs: update-data
     uses: ./.github/workflows/jekyll.yml # Call the other workflow
     with:
-      trigger: 'true'
+      trigger: true
