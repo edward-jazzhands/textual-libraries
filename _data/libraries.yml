@@ -1,0 +1,207 @@
+pytest-textual-snapshot:
+  author: Textualize
+  description: Snapshot testing for Textual applications.
+  img: libraries/pytest-textual-snapshot.png
+  official: true
+  pushed_at: '2025-01-23T16:20:46Z'
+  stars: 32
+  url: https://github.com/Textualize/pytest-textual-snapshot
+
+rich-pixels:
+  author: darrenburns
+  description: Display images in the terminal in your Textual applications.
+  img: libraries/rich-pixels.png
+  official: false
+  pushed_at: '2024-10-18T09:50:15Z'
+  stars: 285
+  url: https://github.com/darrenburns/rich-pixels
+
+textual-astview:
+  author: davep
+  description: Widget library and application for exploring the Python abstract syntax
+    tree.
+  img: libraries/textual-astview.png
+  official: false
+  pushed_at: '2023-10-10T20:12:23Z'
+  stars: 89
+  url: https://github.com/davep/textual-astview
+
+textual-autocomplete:
+  author: darrenburns
+  description: Add autocompletion to your Textual applications.
+  img: libraries/textual-autocomplete.png
+  official: false
+  pushed_at: '2025-03-23T23:38:51Z'
+  stars: 194
+  url: https://github.com/darrenburns/textual-autocomplete
+
+textual-canvas:
+  author: davep
+  description: A simple character-based canvas widget for use with Textual.
+  img: libraries/textual-canvas.png
+  official: false
+  pushed_at: '2024-03-17T10:18:13Z'
+  stars: 34
+  url: https://github.com/davep/textual-canvas
+
+textual-countdown:
+  author: davep
+  description: A visual countdown timer for Textual applications.
+  img: libraries/textual-countdown.png
+  official: false
+  pushed_at: '2024-04-04T21:19:28Z'
+  stars: 2
+  url: https://github.com/davep/textual-countdown
+
+textual-dad-joke:
+  author: davep
+  description: A dad joke widget for Textual. Seriously.
+  img: libraries/textual-dad-joke.png
+  official: false
+  pushed_at: '2024-01-11T21:53:40Z'
+  stars: 4
+  url: https://github.com/davep/textual-dad-joke
+
+textual-datepicker:
+  description: A Date picker widget for Textual applications.
+  img: libraries/textual-datepicker.png
+  official: false
+  url: https://pypi.org/project/textual-datepicker
+
+textual-dev:
+  author: Textualize
+  description: Development tools for Textual.
+  img: libraries/textual-dev.png
+  official: true
+  pushed_at: '2024-12-11T19:37:34Z'
+  stars: 33
+  url: https://github.com/Textualize/textual-dev
+
+textual-filedrop:
+  author: agmmnn
+  description: Library that provides a `FileDrop` widget, allowing easy drag/drop
+    into a terminal application.
+  img: libraries/textual-filedrop.png
+  official: false
+  pushed_at: '2023-03-22T17:59:15Z'
+  stars: 32
+  url: https://github.com/agmmnn/textual-filedrop
+
+textual-fspicker:
+  author: davep
+  description: A Textual widget library for picking things in the filesystem.
+  img: libraries/textual-fspicker.png
+  official: false
+  pushed_at: '2025-03-06T17:37:24Z'
+  stars: 42
+  url: https://github.com/davep/textual-fspicker
+
+textual-imageview:
+  author: adamviola
+  description: Terminal-based image-viewing widget library and application.
+  img: libraries/textual-imageview.png
+  official: false
+  pushed_at: '2023-01-08T05:18:54Z'
+  stars: 113
+  url: https://github.com/adamviola/textual-imageview
+
+textual-pandas:
+  author: dannywade
+  description: A module to display Pandas dataframes in Textual.
+  img: libraries/textual-pandas.png
+  official: false
+  pushed_at: '2024-04-30T00:56:13Z'
+  stars: 32
+  url: https://github.com/dannywade/textual-pandas
+
+textual-plotext:
+  author: Textualize
+  description: A Textual widget wrapper library for Plotext; the terminal-based plotting
+    and graphing library.
+  img: libraries/textual-plotext.png
+  official: true
+  pushed_at: '2024-11-30T19:25:02Z'
+  stars: 146
+  url: https://github.com/Textualize/textual-plotext
+
+textual-pyfiglet:
+  author: edward-jazzhands
+  description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
+  img: libraries/textual-pyfiglet.png
+  official: false
+  pushed_at: '2025-03-02T15:05:10Z'
+  stars: 6
+  url: https://github.com/edward-jazzhands/textual-pyfiglet
+
+textual-qrcode:
+  author: davep
+  description: Library that provides a simple QR code widget, using https://qrenco.de/
+    as the backend.
+  img: libraries/textual-qrcode.png
+  official: false
+  pushed_at: '2023-02-18T18:26:36Z'
+  stars: 7
+  url: https://github.com/davep/textual-qrcode
+
+textual-slider:
+  author: TomJGooding
+  description: A Textual widget for a simple slider.
+  img: libraries/textual-slider.png
+  official: false
+  pushed_at: '2025-01-24T18:39:54Z'
+  stars: 20
+  url: https://github.com/TomJGooding/textual-slider
+
+textual-syntax-highlighter-for-neovim:
+  author: cachebag
+  description: Enables syntax highlighting for Textual's CSS in NeoVim via Packer,
+    Lazy or Vim-Plug.
+  img: libraries/textual-syntax-highlighter-for-neovim.png
+  official: true
+  pushed_at: '2025-02-08T03:08:55Z'
+  stars: 18
+  url: https://github.com/cachebag/nvim-tcss
+
+textual-syntax-highlighter-for-vscode:
+  description: Enables syntax highlighting for Textual's CSS in VSCode.
+  img: libraries/textual-syntax-highlighter-for-vscode.png
+  official: true
+  url: https://marketplace.visualstudio.com/items?itemName=Textualize.textual-syntax-highlighter
+
+textual-terminal:
+  author: mitosch
+  description: Library that provides a terminal widget; which can be used to embed
+    other terminal applications inside a Textual application.
+  img: libraries/textual-terminal.png
+  official: false
+  pushed_at: '2024-06-27T13:36:52Z'
+  stars: 101
+  url: https://github.com/mitosch/textual-terminal
+
+textual-universal-directorytree:
+  author: juftin
+  description: Textual plugin for a `DirectoryTree` compatible with remote filesystems.
+  img: libraries/textual-universal-directorytree.png
+  official: false
+  pushed_at: '2024-04-01T01:46:23Z'
+  stars: 26
+  url: https://github.com/juftin/textual-universal-directorytree
+
+tuilwindcss:
+  author: koaning
+  description: A project inspired by tailwind.css to offer a similar set of classes
+    that can be used directly to construct TUI apps with Textual.
+  img: libraries/tuilwindcss.png
+  official: false
+  pushed_at: '2023-08-07T17:00:41Z'
+  stars: 127
+  url: https://github.com/koaning/tuilwindcss
+
+zandev_textual_widgets:
+  author: ZandevOxford
+  description: Custom widgets for Textual.
+  img: libraries/zandev_textual_widgets.png
+  official: false
+  pushed_at: '2025-02-02T18:42:52Z'
+  stars: 12
+  url: https://github.com/ZandevOxford/zandev_textual_widgets
