@@ -13,4 +13,4 @@ This is a collection of widgets for Textual with a focus on aiding writing apps 
 Currently includes widgets for file selection, cascading drop-down menus, and a simple choice dialog box.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

@@ -11,4 +11,4 @@ official: False
 A module to display Pandas DataFrames in Textual's DataTable widget.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

@@ -11,4 +11,4 @@ official: False
 This library provides a widget that displays a dad joke. No, I'm not even kidding.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

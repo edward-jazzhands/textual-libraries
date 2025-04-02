@@ -13,4 +13,4 @@ Display images in the terminal in your Textual applications.
 A Rich-compatible library for writing pixel images and other colourful grids to the terminal.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

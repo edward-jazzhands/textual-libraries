@@ -11,4 +11,4 @@ official: False
 Library that provides a simple QR code widget, using https://qrenco.de/ as the backend.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

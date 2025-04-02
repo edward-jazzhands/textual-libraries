@@ -11,4 +11,4 @@ official: False
 This project is inspired by tailwind.css to offers a similar set of classes that can be used directly to construct TUI apps with Textual. It's an experimental project to see if it makes it easier to construct apps.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

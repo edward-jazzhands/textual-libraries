@@ -11,4 +11,4 @@ official: False
 Add filedrop support to your Textual apps, easily drag and drop files into your terminal apps.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

@@ -1086,6 +1086,10 @@ footer .copyright {
 .post .post-content .post-words {
   font-size: 12px;
 }
+.post .post-content .post-info {
+  font-size: 12px;
+  font-style: italic;
+}
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 30px;

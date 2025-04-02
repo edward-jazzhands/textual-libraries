@@ -11,4 +11,4 @@ official: True
 Enables syntax highlighting for Textual's CSS in VSCode.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

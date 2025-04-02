@@ -11,4 +11,4 @@ official: False
 textual-slider provides a simple Slider widget for use in Textual, that allows selecting an integer value within a given range.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

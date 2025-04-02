@@ -13,4 +13,4 @@ A simple character-based canvas widget for use with Textual.
 This library aims to provide a very simple terminal-based drawing canvas widget for use with Textual.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

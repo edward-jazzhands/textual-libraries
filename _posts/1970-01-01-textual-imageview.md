@@ -11,4 +11,4 @@ official: False
 textual-imageview is a both a CLI tool and Textual widget and for viewing images in the terminal.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

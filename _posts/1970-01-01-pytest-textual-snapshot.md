@@ -11,4 +11,4 @@ official: True
 A pytest plugin for snapshot testing Textual applications.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

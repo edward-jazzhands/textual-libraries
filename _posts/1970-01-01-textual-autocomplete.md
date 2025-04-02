@@ -14,4 +14,4 @@ A simple autocomplete dropdown library for Textual Input widgets.
 Compatible with Textual 2.0 and above.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

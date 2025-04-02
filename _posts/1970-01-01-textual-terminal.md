@@ -11,4 +11,4 @@ official: False
 A terminal widget for Textual using Pyte as a linux terminal emulator.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

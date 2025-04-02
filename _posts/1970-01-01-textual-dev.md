@@ -11,4 +11,4 @@ official: True
 Official development tools for Textual.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

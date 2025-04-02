@@ -13,4 +13,4 @@ A visual countdown timer for Textual applications.
 This library provides a simple visual countdown widget, designed to subtly let the user know that a period of time is passing; essentially a simple "wait some time" progress bar.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

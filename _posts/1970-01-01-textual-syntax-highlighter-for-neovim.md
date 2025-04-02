@@ -11,4 +11,4 @@ official: True
 A Neovim plugin for Textual CSS (.tcss) syntax highlighting. Enables syntax highlighting for Textual's CSS in NeoVim via Packer, Lazy or Vim-Plug.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

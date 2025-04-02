@@ -11,6 +11,10 @@ hidden: true
 
 ## This is a hidden file for testing styling
 
+## GITHUB
+
+[{{ page.website }}]({{ page.website }})
+
 ## Example Python
 
 ```py
@@ -33,7 +37,3 @@ class SpinnerWidget(Static):
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
-
-## GITHUB
-
-[{{ page.website }}]({{ page.website }})

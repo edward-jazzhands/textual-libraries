@@ -11,4 +11,4 @@ official: False
 A DatePicker widget for textual. It can be used standalone or with a DateSelect opening the dialog.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

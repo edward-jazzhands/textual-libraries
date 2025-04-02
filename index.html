@@ -1,7 +1,8 @@
 ---
 layout: main
 ---
-{% for post in paginator.posts %}
+{% assign sorted_posts = paginator.posts | sort: 'title' %}
+{% for post in sorted_posts %}
 {% unless post.hidden %}
 <article class="post">
   {% if post.img %}
@@ -12,6 +13,9 @@ layout: main
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{ post.description }}</p>
     <span class="post-words">Author: {{ post.author }}</span>
+    {% if post.official %}
+      <span class="post-info">Official library</span>
+    {% endif %}
   </div>
 </article>
 {% endunless %}

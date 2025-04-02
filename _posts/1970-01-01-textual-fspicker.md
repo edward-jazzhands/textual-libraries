@@ -11,4 +11,4 @@ official: False
 This library provides a simple set of filesystem navigation and picking dialogs. The aim is to provide "ready to go" dialogs that should also be fairly easy to tailor to your own applications.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})

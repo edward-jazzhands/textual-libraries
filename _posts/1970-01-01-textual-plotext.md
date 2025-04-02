@@ -11,4 +11,4 @@ official: True
 The library makes one widget available: PlotextPlot. This widget provides a plt property, which should be used where you would normally use plt as seen in the Plotext documentation.
 
 ## GITHUB
-[{ page.website }]({ page.website })
+[{{ page.website }}]({{ page.website }})
