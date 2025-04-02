@@ -1,0 +1,49 @@
+name: Update Repository Data
+# This workflow fetches the last updated dates of repositories
+# Along with a few other details like the number of stars.
+# It runs every day at 00:00 UTC
+# It will also be manually triggered every time the site builds.
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests
+          
+      - name: Fetch repository data
+        run: |
+          python .github/scripts/update_repo_data.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add _data/libraries.yml
+          git commit -m "Update repository last updated dates" || exit 0
+          git push
+
+  run-build:
+    needs: update-data
+    uses: ./.github/workflows/jekyll.yml # Call the other workflow
+    with:
+      trigger: 'true'

@@ -10,18 +10,33 @@ This page is set up to mirror the list on <a href="https://github.com/Textualize
 {% for library_pair in sorted_libraries %}
 <article class="post">
   {% assign name = library_pair[0] %}
-  {% assign post = library_pair[1] %}
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{ post.url | prepend: site.baseurl }}"></a>
+  {% assign lib_data = library_pair[1] %}
+
+  <!-- Issue is here: -->
+  <!-- Check if image exists on filesystem: -->
+  {% assign img_path = "/assets/img/" | append: lib_data.img %}
+
+  {% if lib_data.img and img_path | file_exists %}
+    <a class="post-thumbnail"
+    style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : lib_data.img }} )" 
+    href="{{ lib_data.url }}"></a>
   {% else %}
   {% endif %}
+
   <div class="post-content">
-    <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ name }}</a></h2>
-    <p>{{ post.description }}</p>
-    <span class="post-words">Author: {{ post.author }}</span><br>
-    {% if post.official %}
-      <span class="post-info">Official library</span>
+    <h2 class="post-title"><a href="{{ lib_data.url }}">{{ name }}</a></h2>
+    <p>{{ lib_data.description }}</p>
+    <span class="post-words">Author: {{ lib_data.author }}</span><br>
+    {% if lib_data.official %}
+      <span class="post-info-fancy">Official library</span>
     {% endif %}
+    <span class="post-info">
+      {% if lib_data.pushed_at %}
+      Last Updated: {{ lib_data.pushed_at | date: "%B %d, %Y" }}
+      {% else %}
+      Last Updated: Unknown
+      {% endif %}
+    </span>
   </div>
 </article>
 {% endfor %}

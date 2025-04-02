@@ -1088,6 +1088,10 @@ footer .copyright {
 }
 .post .post-content .post-info {
   font-size: 12px;
+}
+.post .post-content .post-info-fancy {
+  font-size: 12px;
+  font-weight: 400;
   font-style: italic;
 }
 .post .post-content .post-title {

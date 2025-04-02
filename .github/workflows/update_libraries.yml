@@ -1,0 +1,60 @@
+name: Update Library Data
+# Process:
+# 1. My fork of Transcendent Textual runs a Github Action every day at 3am UTC
+# 2. That will make the fork check for new commits to the upstream repo and sync
+# 3. When there is a new commit, Zapier will detect it and trigger a Zap
+# 4. The Zap will post an issue in the textual-libraries repo
+# 5. The issue will trigger this workflow
+
+on:
+  # Trigger on a new issue
+  issues:
+    types:
+      - opened
+  # Allow manual triggering
+  workflow_dispatch:
+
+    
+jobs:
+
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests
+          
+      - name: Fetch libraries data
+        run: |
+          python .github/scripts/update_libraries.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch repository data
+        run: |
+          python .github/scripts/update_repo_data.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add _data/libraries.yml
+          git add libraries_list.md
+          git commit -m "Update repository last updated dates" || exit 0
+          git push
+
+  run-build:
+    needs: update-data
+    uses: ./.github/workflows/jekyll.yml # Call the other workflow
+    with:
+      trigger: 'true'

@@ -1,9 +1,10 @@
 install:
     uv sync
 
-get_truth:
-    uv run get_truth.py
+test_updaters:
+    uv run .github/scripts/update_libraries.py
+    uv run .github/scripts/update_repo_data.py
 
-build:
-    gulp build
+sass:
+    gulp sass
 

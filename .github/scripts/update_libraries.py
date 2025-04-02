@@ -1,18 +1,16 @@
 import requests
 from requests import Response
-import time
 import re
+import os
 from pathlib import Path
-import json
 import yaml
 
-from rich.console import Console
-from rich import traceback
-traceback.install(show_locals=True)
-console = Console()
-starting_time = time.time()
+# Load GitHub token from environment
+token = os.environ.get('GITHUB_TOKEN')
+headers = {'Authorization': f'token {token}'} if token else {}
 
 url = 'https://github.com/Textualize/transcendent-textual/raw/refs/heads/main/README.md'
+yaml_file_path = Path("_data/libraries.yml")       
 
 class SpacedDumper(yaml.Dumper):
     def write_line_break(self, data=None):
@@ -27,9 +25,9 @@ def convert_response_to_dicts(response: Response) -> tuple[dict, dict]:
     split2 = split1[1].split("## Applications built with Textual")      # disregard top section, split at bottom section
     split3 = split2[0].split("## Third-party libraries")                # disregard bottom section, split at middle
 
-    # split3 contains our 2 sections of interest
-    # split3[0] is official Textualize libraries and tools
-    # split3[1] is third-party libraries
+    # split3 contains our 2 sections of interest:
+        # split3[0] is official Textualize libraries and tools
+        # split3[1] is third-party libraries
 
     textualize_libraries = split3[0].strip().split("\n")
     third_party_libraries = split3[1].strip().split("\n")
@@ -58,10 +56,8 @@ def normalize_lib_data(lib_dict: dict, official: bool) -> dict:
     new_libraries_dict = {}
     for key, value in lib_dict.items():
         new_libraries_dict[key] = {
-            "author": "John Doe",
             "url": value[0],
             "img": f"libraries/{key}.png",
-            "tags": [],
             "description": value[1],
             "official": official
         }
@@ -69,9 +65,7 @@ def normalize_lib_data(lib_dict: dict, official: bool) -> dict:
 
 
 def merge_with_existing_data(libraries_dict: dict) -> None:
-
-    # json_file_path = Path("_data/libraries.json")
-    yaml_file_path = Path("_data/libraries.yml")        
+    "This will only add new libraries to the file, not update existing ones."
 
     added_count = 0
     if yaml_file_path.exists():
@@ -86,12 +80,12 @@ def merge_with_existing_data(libraries_dict: dict) -> None:
     else:
         existing_data = libraries_dict
         added_count = len(libraries_dict)
-        console.print(f"File {yaml_file_path} does not exist. Creating new file...")
+        print(f"File {yaml_file_path} does not exist. Creating new file...")
 
     with open(yaml_file_path, "w") as f:
         yaml.dump(existing_data, f, Dumper=SpacedDumper, indent=2)
 
-    console.print(f"Added {added_count} libraries to the file {yaml_file_path}.")
+    print(f"Added {added_count} libraries to the file {yaml_file_path}.")
     
 
 def write_markdown_list(lib1: dict, lib2: dict) -> None:
@@ -101,7 +95,7 @@ def write_markdown_list(lib1: dict, lib2: dict) -> None:
 
 This file is auto-generated from `get_truth.py`.
 It is not used directly, but it shows the data that is fetched.
-This list will match the contents of `_data/libraries.yml`.
+This list should match the contents of `_data/libraries.yml`.
 
 ## Textualize libraries and tools
                 
@@ -127,22 +121,35 @@ This list will match the contents of `_data/libraries.yml`.
 
 response = None
 try:
-    response = requests.get(url)
+    response = requests.get(url, headers=headers)
 except Exception as e:
     raise Exception(f"Error while fetching the URL: {url}. Error: {e}")
 
 if response.status_code == 200:
-    console.print("\nSuccessfully fetched the README.md file. Next stage... \n")
+    print("\nSuccessfully fetched the README.md file. Next stage... \n")
     textualize_libraries_dict, third_party_libraries_dict = convert_response_to_dicts(response)
 else:
     raise Exception(f"Get request passed but returned wrong code. Status code: {response.status_code}")
 
-normalized_textualize_libraries = normalize_lib_data(textualize_libraries_dict, True)
-normalized_third_party_libraries = normalize_lib_data(third_party_libraries_dict, False)
+try:
+    normalized_textualize_libraries = normalize_lib_data(textualize_libraries_dict, True)
+    normalized_third_party_libraries = normalize_lib_data(third_party_libraries_dict, False)
+except Exception as e:
+    raise Exception(f"Error while normalizing library data: {e}")
 
 merged_dict = {**normalized_textualize_libraries, **normalized_third_party_libraries}
-merge_with_existing_data(merged_dict)
 
-write_markdown_list(textualize_libraries_dict, third_party_libraries_dict)
+try:
+    merge_with_existing_data(merged_dict)
+except Exception as e:
+    raise Exception(f"Error while merging with existing data: {e}")
+else:
+    print("Successfully merged with existing data. \n")
 
-console.print(f"\nFinished successfully. Script took {time.time() - starting_time} seconds. \n")
+try:
+    write_markdown_list(textualize_libraries_dict, third_party_libraries_dict)
+except Exception as e:
+    raise Exception(f"Error while writing markdown list: {e}")
+else:
+    print("Successfully wrote markdown list.")
+    print("Done update_libraries.py. \n")

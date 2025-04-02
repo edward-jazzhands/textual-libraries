@@ -2,7 +2,7 @@
 
 This file is auto-generated from `get_truth.py`.
 It is not used directly, but it shows the data that is fetched.
-This list will match the contents of `_data/libraries.yml`.
+This list should match the contents of `_data/libraries.yml`.
 
 ## Textualize libraries and tools
                 

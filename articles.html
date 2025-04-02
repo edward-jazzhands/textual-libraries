@@ -7,16 +7,17 @@ title: Articles
 Many of the authors below have more Textual articles on their own blogs. Some articles are just one of a tutorial series.
 </p>
 
-{% for post in site.data.external_posts %}
+{% for post_data in site.data.external_posts %}
 <article class="post">
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{ "/assets/img/" | prepend: site.baseurl | append: post.img }})" href="{{ post.url }}" target="_blank"></a>
+  {% if post_data.img %}
+    <a class="post-thumbnail" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append: post_data.img }} )" 
+    href="{{ post_data.url }}" target="_blank"></a>
   {% endif %}
   <div class="post-content">
-    <h2 class="post-title"><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h2>
-    <p>{{ post.summary }}</p>
-    <span class="post-date">{{ post.date }}&nbsp;&nbsp;&nbsp;-&nbsp;</span>
-    <span class="post-words">Written by {{ post.author }}</span>
+    <h2 class="post-title"><a href="{{ post_data.url }}" target="_blank">{{ post_data.title }}</a></h2>
+    <p>{{ post_data.summary }}</p>
+    <span class="post-date">{{ post_data.date }}&nbsp;&nbsp;&nbsp;-&nbsp;</span>
+    <span class="post-words">Written by {{ post_data.author }}</span>
   </div>
 </article>
 {% endfor %}
