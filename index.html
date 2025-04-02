@@ -1,6 +1,11 @@
 ---
 layout: main
 ---
+This is a list of all libraries that are available for the Textual framework.
+This page is set to mirror the list on [Transcendent Textual](https://github.com/Textualize/transcendent-textual)
+
+{% include pagination.html %}
+
 {% assign sorted_posts = paginator.posts | sort: 'title' %}
 {% for post in sorted_posts %}
 {% unless post.hidden %}
@@ -12,7 +17,7 @@ layout: main
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{ post.description }}</p>
-    <span class="post-words">Author: {{ post.author }}</span>
+    <span class="post-words">Author: {{ post.author }}</span><br>
     {% if post.official %}
       <span class="post-info">Official library</span>
     {% endif %}
