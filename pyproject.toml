@@ -1,0 +1,10 @@
+[project]
+name = "textual-libraries"
+version = "0.1.0"
+description = "This is only used for running some scripts."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+]

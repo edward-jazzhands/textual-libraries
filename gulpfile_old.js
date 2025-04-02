@@ -1,3 +1,8 @@
+// This is the old, original gulpfile.js that came with the Jekyll theme.
+// It is not used in the current version of the theme.
+// It was outdated and replaced by a new gulpfile.js.
+// It is kept here for reference only.
+
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');

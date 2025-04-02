@@ -4,8 +4,8 @@ title: textual-pyfiglet
 author: Edward Jazzhands
 website: https://github.com/edward-jazzhands/textual-pyfiglet
 img: posts/textual-pyfiglet.png
-tags: [BigText, ASCII]
-description: A library that makes it easy to integrate PyFiglet into Textual. It adds a 'FigletWidget' that handles all the hard stuff for you.
+tags: [BigText, ASCII, TUI, Terminal, Textual, Libraries, Tools, CLI, Python, textual-pyfiglet]
+description: Library that provides a `FigletWidget` to integrate PyFiglet into Textual
 ---
 
 Textual-PyFiglet is an implementation of [PyFiglet](https://github.com/pwaller/pyfiglet) for Textual.
