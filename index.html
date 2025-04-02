@@ -33,15 +33,18 @@ This page is set up to mirror the list on <a href="https://github.com/Textualize
     <p>{{ lib_data.description }}</p>
     <span class="post-words">Author: {{ lib_data.author }}</span><br>
     {% if lib_data.official %}
-      <span class="post-info-fancy">Official library</span>
+      <span class="post-info-fancy">Official library</span><br>
     {% endif %}
+    {% if lib_data.pushed_at %}
     <span class="post-info">
-      {% if lib_data.pushed_at %}
       Last Updated: {{ lib_data.pushed_at | date: "%B %d, %Y" }}
       {% else %}
       Last Updated: Unknown
-      {% endif %}
     </span>
+    {% endif %}
+    {% if lib_data.stars %}
+      <span class="post-info">✩ {{ lib_data.stars }}</span><br>
+    {% endif %}
   </div>
 </article>
 {% endfor %}
