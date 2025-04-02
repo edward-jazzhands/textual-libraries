@@ -5,11 +5,12 @@ layout: main
 This page is set up to mirror the list on <a href="https://github.com/Textualize/transcendent-textual">Transcendent Textual</a>
 </p>
 
-{% assign sorted_posts = site.data.libraries | sort: 'title' %}
+{% assign sorted_libraries = site.data.libraries | sort %}
 
-{% for name in sorted_posts %}
+{% for library_pair in sorted_libraries %}
 <article class="post">
-  {% assign post = sorted_posts[name] %}
+  {% assign name = library_pair[0] %}
+  {% assign post = library_pair[1] %}
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{ post.url | prepend: site.baseurl }}"></a>
   {% else %}
