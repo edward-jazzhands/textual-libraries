@@ -57,7 +57,7 @@ def normalize_lib_data(lib_dict: dict, official: bool) -> dict:
     for key, value in lib_dict.items():
         new_libraries_dict[key] = {
             "url": value[0],
-            "img": f"libraries/{key}.png",
+            "img": f"libraries/{key}.png" if not official else "libraries/textualize.png",
             "description": value[1],
             "official": official
         }
