@@ -7,14 +7,19 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Triggered by update_libraries.yml workflow
-  workflow_call:
-    inputs:
-      trigger:
-        description: 'Trigger the workflow'
-        required: true
-        default: true
-        type: boolean
+  # Triggered by push to the main branch
+  push:
+    branches:
+      - master
+
+  # # Triggered by update_libraries.yml workflow
+  # workflow_call:
+  #   inputs:
+  #     trigger:
+  #       description: 'Trigger the workflow'
+  #       required: true
+  #       default: true
+  #       type: boolean
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
