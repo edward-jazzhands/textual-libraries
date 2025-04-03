@@ -1,7 +1,7 @@
 pytest-textual-snapshot:
   author: Textualize
   description: Snapshot testing for Textual applications.
-  img: libraries/textualize.png
+  img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-01-23T16:20:46Z'
   stars: 32
@@ -71,7 +71,7 @@ textual-datepicker:
 textual-dev:
   author: Textualize
   description: Development tools for Textual.
-  img: libraries/textualize.png
+  img: libraries/textual-dev.png
   official: true
   pushed_at: '2024-12-11T19:37:34Z'
   stars: 33
@@ -118,7 +118,7 @@ textual-plotext:
   author: Textualize
   description: A Textual widget wrapper library for Plotext; the terminal-based plotting
     and graphing library.
-  img: libraries/textualize.png
+  img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
   stars: 146
@@ -156,7 +156,7 @@ textual-syntax-highlighter-for-neovim:
   author: cachebag
   description: Enables syntax highlighting for Textual's CSS in NeoVim via Packer,
     Lazy or Vim-Plug.
-  img: libraries/textualize.png
+  img: libraries/textual-syntax-highlighter-for-neovim.png
   official: true
   pushed_at: '2025-02-08T03:08:55Z'
   stars: 18
@@ -164,7 +164,7 @@ textual-syntax-highlighter-for-neovim:
 
 textual-syntax-highlighter-for-vscode:
   description: Enables syntax highlighting for Textual's CSS in VSCode.
-  img: libraries/textualize.png
+  img: libraries/textual-syntax-highlighter-for-vscode.png
   official: true
   url: https://marketplace.visualstudio.com/items?itemName=Textualize.textual-syntax-highlighter
 
