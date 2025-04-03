@@ -26,6 +26,12 @@ This page is set up to mirror the list on <a href="https://github.com/Textualize
     <a class="post-thumbnail"
     style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : lib_data.img }} )" 
     href="{{ lib_data.url }}"></a>
+  {% else %}
+    {% if lib_data.official %}
+      <a class="post-thumbnail"
+      style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : "textualize.png" }} )" 
+      href="{{ lib_data.url }}"></a>
+    {% endif %}
   {% endif %}
 
   <div class="post-content">
@@ -36,14 +42,14 @@ This page is set up to mirror the list on <a href="https://github.com/Textualize
       <span class="post-info-fancy">Official library</span><br>
     {% endif %}
     {% if lib_data.pushed_at %}
-    <span class="post-info">
-      Last Updated: {{ lib_data.pushed_at | date: "%B %d, %Y" }}
-      {% else %}
-      Last Updated: Unknown
-    </span><br>
+      <span class="post-info">
+        Last Updated: {{ lib_data.pushed_at | date: "%B %d, %Y" }}
+        {% else %}
+        Last Updated: Unknown
+      </span><br>
     {% endif %}
     {% if lib_data.stars %}
-      <span class="post-info">✩ {{ lib_data.stars }}</span><br>
+      <br><span class="post-info">✩ {{ lib_data.stars }}</span><br>
     {% endif %}
   </div>
 </article>
