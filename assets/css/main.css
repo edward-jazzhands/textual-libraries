@@ -1304,7 +1304,7 @@ a.newer-posts:hover {
     width: 100%;
   }
   .post .post-content .post-title {
-    margin: 0 0 5px;
+    margin: 0 0 10px;
   }
   .post .post-content .post-title a {
     font-size: 21px;
