@@ -2,19 +2,19 @@
 
 [Textual Libraries website](https://edward-jazzhands.github.io/textual-libraries)
 
-This website is dedicated to keeping a centralized list of all the libraries and plugins designed by the Textual community and designed for other Textual creators to use in their own apps.
+[Transcendent Textual List](https://github.com/Textualize/transcendent-textual)
 
-## Contributing
+## This website is set to automatically pull information from the Transcendent List
 
-To make a submission:
+### Submitting Libraries
 
-1) Fork the repo
-2) Make a copy of any post in the _posts folder. Follow the template and substitute in your own information.
-3) Place a screenshot of your library in assets/img/posts. Ensure the path matches the img option in your post header.
-4) Submit a PR with these changes.
+The List is essentially the official "awesome" list for Textual. The repo is maintained by the Textualize organization.
+But they are very open to submissions.
 
-I'm hoping that if we all work together, we can make the perfect resource for people looking for third-party libraries, as well as give library creators a fancy venue for showcasing their libraries to other Textual creators.
+If you have a new Textual library, submit it to the official Transcendent list. When your submission is accepted, the Textual Libraries website will automatically update and list your Library.
 
-----------------------------
+For a cover image, that unfortunately won't appear automatically. But I will get a message telling me about the addition. Usually I'll just copy whatever demo / cover image I can find on your library's page or website. If you have a specific image you'd like me to use, feel free to post an issue on this repo.
 
-NOTE: Textual Libraries is not associated with the Textual framework or [Textualize.io](https://www.textualize.io/) in any way. It is purely driven by the Textual community.
+### Submiting Articles
+
+Post an issue on this repo linking to your article. Alternatively if you head over to the Textualize Discord, you can post it in the #show-and-tell channel and ping me (@Edward Jazzhands).

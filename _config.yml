@@ -9,8 +9,9 @@ url: "http://edward-jazzhands.github.io"
 author: Textual Libraries
 author-img: logo.jpg
 about-author: >
-  A community-run collection of libraries, widgets, and plugins for the Textual framework,
-  to help you make better Textual applications.
+  A collection of libraries as well as articles and tutorials for the Textual framework.
+
+  See GitHub for how to submit.
 
 social-github: edward-jazzhands/textual-libraries
 
