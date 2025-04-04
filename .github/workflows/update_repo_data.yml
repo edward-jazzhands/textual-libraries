@@ -42,8 +42,6 @@ jobs:
           git commit -m "Update repository last updated dates" || exit 0
           git push
 
-  # run-build:
-  #   needs: update-data
-  #   uses: ./.github/workflows/jekyll.yml # Call the other workflow
-  #   with:
-  #     trigger: true
+  run-build:
+    needs: update-data
+    uses: ./.github/workflows/jekyll.yml # Call the other workflow
