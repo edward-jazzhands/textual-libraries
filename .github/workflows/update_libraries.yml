@@ -49,7 +49,6 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
           git add _data/libraries.yml
-          git add libraries_list.md
           git commit -m "Update repository last updated dates" || exit 0
           git push
 
