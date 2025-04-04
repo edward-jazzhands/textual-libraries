@@ -18,7 +18,6 @@ class SpacedDumper(yaml.Dumper):
         if self.indent == 0:  # Add a blank line between top-level entries
             super().write_line_break()
 
-
 def convert_response_to_dicts(response: Response) -> tuple[dict, dict]:
 
     split1 = response.text.split("## Textualize libraries and tools")   # split at top section
@@ -32,70 +31,33 @@ def convert_response_to_dicts(response: Response) -> tuple[dict, dict]:
     textualize_libraries = split3[0].strip().split("\n")
     third_party_libraries = split3[1].strip().split("\n")
 
-    def normalize_line(line: str, dict_to_update: dict) -> None:
-        name = re.findall(r'\[(.*?)\]', line)
-        name = name[0].replace(" ", "-").lower()
-        url  = re.findall(r'\((.*?)\)', line)
-        url = url[0]
+    def normalize_line(line: str, dict_to_update: dict, official: bool) -> None:
+        name = re.findall(r'\[(.*?)\]', line)[0]
+        name = name.replace(" ", "-").lower()
+        url  = re.findall(r'\((.*?)\)', line)[0]
         description = line.split(") - ")[1]
-        dict_to_update[name] = [url, description]
+        # dict_to_update[name] = [url, description]
+        dict_to_update[name] = {
+            "url": url,
+            "img": f"libraries/{name}.png",
+            "description": description,
+            "official": official
+        }
 
     textualize_libraries_dict = {}
     for line in textualize_libraries:
-        normalize_line(line, textualize_libraries_dict)
+        normalize_line(line, textualize_libraries_dict, True)
 
     third_party_libraries_dict = {}
     for line in third_party_libraries:
-        normalize_line(line, third_party_libraries_dict)
+        normalize_line(line, third_party_libraries_dict, False)
 
     return textualize_libraries_dict, third_party_libraries_dict
-
-
-def normalize_lib_data(lib_dict: dict, official: bool) -> dict:
-
-    new_libraries_dict = {}
-    for key, value in lib_dict.items():
-        new_libraries_dict[key] = {
-            "url": value[0],
-            "img": f"libraries/{key}.png",
-            "description": value[1],
-            "official": official
-        }
-    return new_libraries_dict
-
-
-def write_markdown_list(lib1: dict, lib2: dict) -> None:
-
-    with open("libraries_list.md", "w") as f:
-        f.write("""# Libraries list
-
-This file is auto-generated from `get_truth.py`.
-It is not used directly, but it shows the data that is fetched.
-This list should match the contents of `_data/libraries.yml`.
-
-## Textualize libraries and tools
-                
-| Name | URL | Description |
-| --- | --- | --- |
-""")
-        for key, value in lib1.items():
-            f.write(f"| {key} | {value[0]} | {value[1]} |\n")
-
-        f.write("""
-## Third-party libraries
-                
-| Name | URL | Description |
-| --- | --- | --- |
-""")
-        for key, value in lib2.items():
-            f.write(f"| {key} | {value[0]} | {value[1]} |\n")
-
 
 ###########################
 # Main script starts here #
 ###########################
 
-response = None
 try:
     response = requests.get(url, headers=headers)
 except Exception as e:
@@ -107,13 +69,7 @@ if response.status_code == 200:
 else:
     raise Exception(f"Get request passed but returned wrong code. Status code: {response.status_code}")
 
-try:
-    normalized_textualize_libraries = normalize_lib_data(textualize_libraries_dict, True)
-    normalized_third_party_libraries = normalize_lib_data(third_party_libraries_dict, False)
-except Exception as e:
-    raise Exception(f"Error while normalizing library data: {e}")
-
-merged_dict = {**normalized_textualize_libraries, **normalized_third_party_libraries}
+merged_dict = {**textualize_libraries_dict, **third_party_libraries_dict}
 
 try:
     with open(yaml_file_path, "w") as f:
@@ -122,11 +78,4 @@ except Exception as e:
     raise Exception(f"Error while writing to yaml file: {e}")
 else:
     print(f"Successfully wrote to {yaml_file_path} \n")
-
-try:
-    write_markdown_list(textualize_libraries_dict, third_party_libraries_dict)
-except Exception as e:
-    raise Exception(f"Error while writing markdown list: {e}")
-else:
-    print("Successfully wrote markdown list.")
     print("Done update_libraries.py. \n")
