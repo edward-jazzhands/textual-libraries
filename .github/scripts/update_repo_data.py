@@ -1,6 +1,7 @@
 import os
 import yaml
 import requests
+import datetime
 
 # Load GitHub token from environment
 token = os.environ.get('GITHUB_TOKEN')
@@ -59,4 +60,4 @@ except Exception as e:
     raise SystemExit(f"Error writing to file: {e}")
 else:
     print("File written successfully.")
-    print("All done!")
+    print(f"Finished time: {datetime.datetime.now()} \n")
