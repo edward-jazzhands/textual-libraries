@@ -74,7 +74,7 @@ textual-dev:
   img: libraries/textual-dev.png
   official: true
   pushed_at: '2024-12-11T19:37:34Z'
-  stars: 34
+  stars: 35
   url: https://github.com/Textualize/textual-dev
 
 textual-filedrop:
