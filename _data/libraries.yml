@@ -96,6 +96,25 @@ textual-fspicker:
   stars: 42
   url: https://github.com/davep/textual-fspicker
 
+textual-hires-canvas:
+  author: davidfokkema
+  description: High-resolution drawing canvas for Textual apps.
+  img: libraries/textual-hires-canvas.png
+  official: false
+  pushed_at: '2025-03-19T22:16:44Z'
+  stars: 7
+  url: https://github.com/davidfokkema/textual-hires-canvas
+
+textual-image:
+  author: lnqs
+  description: A module to render images in Textual via Terminal Graphics Protocol
+    and Sixel.
+  img: libraries/textual-image.png
+  official: false
+  pushed_at: '2025-04-01T19:39:12Z'
+  stars: 65
+  url: https://github.com/lnqs/textual-image
+
 textual-imageview:
   author: adamviola
   description: Terminal-based image-viewing widget library and application.
@@ -113,6 +132,15 @@ textual-pandas:
   pushed_at: '2024-04-30T00:56:13Z'
   stars: 32
   url: https://github.com/dannywade/textual-pandas
+
+textual-plot:
+  author: davidfokkema
+  description: A native plotting widget for Textual apps with zooming/panning support.
+  img: libraries/textual-plot.png
+  official: false
+  pushed_at: '2025-03-16T21:07:57Z'
+  stars: 9
+  url: https://github.com/davidfokkema/textual-plot
 
 textual-plotext:
   author: Textualize
@@ -143,6 +171,16 @@ textual-qrcode:
   stars: 7
   url: https://github.com/davep/textual-qrcode
 
+textual-slidecontainer:
+  author: edward-jazzhands
+  description: Provides a new container, the `SlideContainer`. Makes it easy to create
+    sliding or hidden menu bars.
+  img: libraries/textual-slidecontainer.png
+  official: false
+  pushed_at: '2025-04-06T13:09:38Z'
+  stars: 0
+  url: https://github.com/edward-jazzhands/textual-slidecontainer
+
 textual-slider:
   author: TomJGooding
   description: A Textual widget for a simple slider.
@@ -151,6 +189,15 @@ textual-slider:
   pushed_at: '2025-01-24T18:39:54Z'
   stars: 20
   url: https://github.com/TomJGooding/textual-slider
+
+textual-spinbox:
+  author: friscorose
+  description: A Textual spinbox widget (also in pypi).
+  img: libraries/textual-spinbox.png
+  official: false
+  pushed_at: '2025-01-07T21:41:01Z'
+  stars: 4
+  url: https://github.com/friscorose/textual-spinbox
 
 textual-syntax-highlighter-for-neovim:
   author: cachebag
