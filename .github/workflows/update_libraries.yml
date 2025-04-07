@@ -7,10 +7,6 @@ name: Update Library Data
 # 5. The issue will trigger this workflow
 
 on:
-  # Trigger on a new issue
-  issues:
-    types:
-      - opened
   # Allow manual triggering
   workflow_dispatch: 
 
