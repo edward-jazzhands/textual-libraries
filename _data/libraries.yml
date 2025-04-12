@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 66
+  stars: 68
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
