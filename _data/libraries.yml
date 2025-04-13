@@ -40,7 +40,7 @@ textual-canvas:
   description: A simple character-based canvas widget for use with Textual.
   img: libraries/textual-canvas.png
   official: false
-  pushed_at: '2024-03-17T10:18:13Z'
+  pushed_at: '2025-04-12T15:52:50Z'
   stars: 34
   url: https://github.com/davep/textual-canvas
 
@@ -222,7 +222,7 @@ textual-terminal:
   img: libraries/textual-terminal.png
   official: false
   pushed_at: '2024-06-27T13:36:52Z'
-  stars: 102
+  stars: 103
   url: https://github.com/mitosch/textual-terminal
 
 textual-universal-directorytree:
