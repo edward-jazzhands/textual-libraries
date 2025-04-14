@@ -40,7 +40,7 @@ textual-canvas:
   description: A simple character-based canvas widget for use with Textual.
   img: libraries/textual-canvas.png
   official: false
-  pushed_at: '2025-04-12T15:52:50Z'
+  pushed_at: '2025-04-13T15:01:46Z'
   stars: 34
   url: https://github.com/davep/textual-canvas
 
