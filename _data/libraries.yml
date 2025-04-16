@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 286
+  stars: 287
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -40,7 +40,7 @@ textual-canvas:
   description: A simple character-based canvas widget for use with Textual.
   img: libraries/textual-canvas.png
   official: false
-  pushed_at: '2025-04-14T15:22:36Z'
+  pushed_at: '2025-04-15T15:19:35Z'
   stars: 34
   url: https://github.com/davep/textual-canvas
 
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 68
+  stars: 69
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -231,7 +231,7 @@ textual-universal-directorytree:
   img: libraries/textual-universal-directorytree.png
   official: false
   pushed_at: '2025-04-14T01:54:01Z'
-  stars: 26
+  stars: 27
   url: https://github.com/juftin/textual-universal-directorytree
 
 tuilwindcss:
