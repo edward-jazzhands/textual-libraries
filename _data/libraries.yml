@@ -129,7 +129,7 @@ textual-pandas:
   description: A module to display Pandas dataframes in Textual.
   img: libraries/textual-pandas.png
   official: false
-  pushed_at: '2024-04-30T00:56:13Z'
+  pushed_at: '2025-04-19T02:08:55Z'
   stars: 32
   url: https://github.com/dannywade/textual-pandas
 
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 153
+  stars: 154
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-03-02T15:05:10Z'
+  pushed_at: '2025-04-19T14:48:20Z'
   stars: 6
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
@@ -177,8 +177,8 @@ textual-slidecontainer:
     sliding or hidden menu bars.
   img: libraries/textual-slidecontainer.png
   official: false
-  pushed_at: '2025-04-17T22:40:25Z'
-  stars: 1
+  pushed_at: '2025-04-19T20:17:09Z'
+  stars: 2
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
 textual-slider:
