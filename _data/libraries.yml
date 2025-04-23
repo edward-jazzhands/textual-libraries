@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 288
+  stars: 291
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-04-21T23:00:42Z'
+  pushed_at: '2025-04-22T07:45:54Z'
   stars: 6
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
