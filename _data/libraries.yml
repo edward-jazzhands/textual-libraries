@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 70
+  stars: 71
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -206,7 +206,7 @@ textual-syntax-highlighter-for-neovim:
   img: libraries/textual-syntax-highlighter-for-neovim.png
   official: true
   pushed_at: '2025-02-08T03:08:55Z'
-  stars: 18
+  stars: 19
   url: https://github.com/cachebag/nvim-tcss
 
 textual-syntax-highlighter-for-vscode:
