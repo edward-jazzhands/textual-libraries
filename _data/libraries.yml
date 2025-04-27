@@ -3,7 +3,7 @@ pytest-textual-snapshot:
   description: Snapshot testing for Textual applications.
   img: libraries/pytest-textual-snapshot.png
   official: true
-  pushed_at: '2025-01-23T16:20:46Z'
+  pushed_at: '2025-04-26T15:45:15Z'
   stars: 33
   url: https://github.com/Textualize/pytest-textual-snapshot
 
@@ -74,7 +74,7 @@ textual-dev:
   img: libraries/textual-dev.png
   official: true
   pushed_at: '2024-12-11T19:37:34Z'
-  stars: 36
+  stars: 37
   url: https://github.com/Textualize/textual-dev
 
 textual-filedrop:
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 71
+  stars: 73
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 155
+  stars: 156
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
