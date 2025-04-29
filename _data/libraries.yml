@@ -121,7 +121,7 @@ textual-imageview:
   img: libraries/textual-imageview.png
   official: false
   pushed_at: '2023-01-08T05:18:54Z'
-  stars: 116
+  stars: 117
   url: https://github.com/adamviola/textual-imageview
 
 textual-pandas:
