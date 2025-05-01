@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-04-05T09:43:22Z'
-  stars: 46
+  stars: 47
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -241,7 +241,7 @@ tuilwindcss:
   img: libraries/tuilwindcss.png
   official: false
   pushed_at: '2023-08-07T17:00:41Z'
-  stars: 130
+  stars: 131
   url: https://github.com/koaning/tuilwindcss
 
 zandev_textual_widgets:
