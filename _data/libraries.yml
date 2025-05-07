@@ -4,7 +4,7 @@ pytest-textual-snapshot:
   img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-04-26T15:45:15Z'
-  stars: 33
+  stars: 34
   url: https://github.com/Textualize/pytest-textual-snapshot
 
 rich-pixels:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-04-05T09:43:22Z'
-  stars: 47
+  stars: 48
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 157
+  stars: 158
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-04-22T07:45:54Z'
+  pushed_at: '2025-05-06T07:06:38Z'
   stars: 7
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
@@ -222,7 +222,7 @@ textual-terminal:
   img: libraries/textual-terminal.png
   official: false
   pushed_at: '2024-06-27T13:36:52Z'
-  stars: 104
+  stars: 105
   url: https://github.com/mitosch/textual-terminal
 
 textual-universal-directorytree:
@@ -250,5 +250,5 @@ zandev_textual_widgets:
   img: libraries/zandev_textual_widgets.png
   official: false
   pushed_at: '2025-02-02T18:42:52Z'
-  stars: 12
+  stars: 13
   url: https://github.com/ZandevOxford/zandev_textual_widgets
