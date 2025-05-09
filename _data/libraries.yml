@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 73
+  stars: 74
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -121,7 +121,7 @@ textual-imageview:
   img: libraries/textual-imageview.png
   official: false
   pushed_at: '2023-01-08T05:18:54Z'
-  stars: 117
+  stars: 118
   url: https://github.com/adamviola/textual-imageview
 
 textual-pandas:
@@ -168,7 +168,7 @@ textual-qrcode:
   img: libraries/textual-qrcode.png
   official: false
   pushed_at: '2023-02-18T18:26:36Z'
-  stars: 7
+  stars: 8
   url: https://github.com/davep/textual-qrcode
 
 textual-slidecontainer:
