@@ -222,7 +222,7 @@ textual-terminal:
   img: libraries/textual-terminal.png
   official: false
   pushed_at: '2024-06-27T13:36:52Z'
-  stars: 105
+  stars: 106
   url: https://github.com/mitosch/textual-terminal
 
 textual-universal-directorytree:
