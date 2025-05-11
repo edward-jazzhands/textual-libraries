@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 198
+  stars: 199
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-04-05T09:43:22Z'
-  stars: 48
+  stars: 49
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-05-06T07:06:38Z'
+  pushed_at: '2025-05-10T18:15:38Z'
   stars: 7
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
