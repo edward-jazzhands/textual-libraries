@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 293
+  stars: 294
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 200
+  stars: 201
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-05-13T15:25:29Z'
+  pushed_at: '2025-05-14T10:47:38Z'
   stars: 0
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
@@ -177,7 +177,7 @@ textual-slidecontainer:
     sliding or hidden menu bars.
   img: libraries/textual-slidecontainer.png
   official: false
-  pushed_at: '2025-05-05T07:31:06Z'
+  pushed_at: '2025-05-14T10:44:41Z'
   stars: 6
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
