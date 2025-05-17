@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 294
+  stars: 295
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -158,7 +158,7 @@ textual-pyfiglet:
   img: libraries/textual-pyfiglet.png
   official: false
   pushed_at: '2025-05-14T10:47:38Z'
-  stars: 0
+  stars: 1
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
 textual-qrcode:
@@ -250,5 +250,5 @@ zandev_textual_widgets:
   img: libraries/zandev_textual_widgets.png
   official: false
   pushed_at: '2025-02-02T18:42:52Z'
-  stars: 14
+  stars: 15
   url: https://github.com/ZandevOxford/zandev_textual_widgets
