@@ -4,7 +4,7 @@ pytest-textual-snapshot:
   img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-04-26T15:45:15Z'
-  stars: 34
+  stars: 35
   url: https://github.com/Textualize/pytest-textual-snapshot
 
 rich-pixels:
@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 295
+  stars: 297
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -23,7 +23,7 @@ textual-astview:
   img: libraries/textual-astview.png
   official: false
   pushed_at: '2023-10-10T20:12:23Z'
-  stars: 91
+  stars: 92
   url: https://github.com/davep/textual-astview
 
 textual-autocomplete:
@@ -41,7 +41,7 @@ textual-canvas:
   img: libraries/textual-canvas.png
   official: false
   pushed_at: '2025-05-11T07:59:37Z'
-  stars: 35
+  stars: 36
   url: https://github.com/davep/textual-canvas
 
 textual-countdown:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-04-05T09:43:22Z'
-  stars: 50
+  stars: 51
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -102,7 +102,7 @@ textual-hires-canvas:
   img: libraries/textual-hires-canvas.png
   official: false
   pushed_at: '2025-04-25T13:49:58Z'
-  stars: 9
+  stars: 10
   url: https://github.com/davidfokkema/textual-hires-canvas
 
 textual-image:
@@ -121,7 +121,7 @@ textual-imageview:
   img: libraries/textual-imageview.png
   official: false
   pushed_at: '2023-01-08T05:18:54Z'
-  stars: 118
+  stars: 120
   url: https://github.com/adamviola/textual-imageview
 
 textual-pandas:
@@ -130,7 +130,7 @@ textual-pandas:
   img: libraries/textual-pandas.png
   official: false
   pushed_at: '2025-04-19T02:08:55Z'
-  stars: 33
+  stars: 34
   url: https://github.com/dannywade/textual-pandas
 
 textual-plot:
@@ -139,7 +139,7 @@ textual-plot:
   img: libraries/textual-plot.png
   official: false
   pushed_at: '2025-05-02T07:40:47Z'
-  stars: 12
+  stars: 13
   url: https://github.com/davidfokkema/textual-plot
 
 textual-plotext:
@@ -158,7 +158,7 @@ textual-pyfiglet:
   img: libraries/textual-pyfiglet.png
   official: false
   pushed_at: '2025-05-14T10:47:38Z'
-  stars: 1
+  stars: 2
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
 textual-qrcode:
@@ -168,7 +168,7 @@ textual-qrcode:
   img: libraries/textual-qrcode.png
   official: false
   pushed_at: '2023-02-18T18:26:36Z'
-  stars: 9
+  stars: 10
   url: https://github.com/davep/textual-qrcode
 
 textual-slidecontainer:
@@ -178,7 +178,7 @@ textual-slidecontainer:
   img: libraries/textual-slidecontainer.png
   official: false
   pushed_at: '2025-05-14T10:44:41Z'
-  stars: 6
+  stars: 7
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
 textual-slider:
@@ -187,7 +187,7 @@ textual-slider:
   img: libraries/textual-slider.png
   official: false
   pushed_at: '2025-01-24T18:39:54Z'
-  stars: 21
+  stars: 22
   url: https://github.com/TomJGooding/textual-slider
 
 textual-spinbox:
@@ -196,7 +196,7 @@ textual-spinbox:
   img: libraries/textual-spinbox.png
   official: false
   pushed_at: '2025-01-07T21:41:01Z'
-  stars: 6
+  stars: 7
   url: https://github.com/friscorose/textual-spinbox
 
 textual-syntax-highlighter-for-neovim:
@@ -222,7 +222,7 @@ textual-terminal:
   img: libraries/textual-terminal.png
   official: false
   pushed_at: '2024-06-27T13:36:52Z'
-  stars: 106
+  stars: 107
   url: https://github.com/mitosch/textual-terminal
 
 textual-universal-directorytree:
@@ -231,7 +231,7 @@ textual-universal-directorytree:
   img: libraries/textual-universal-directorytree.png
   official: false
   pushed_at: '2025-04-14T01:54:01Z'
-  stars: 27
+  stars: 28
   url: https://github.com/juftin/textual-universal-directorytree
 
 tuilwindcss:
@@ -241,7 +241,7 @@ tuilwindcss:
   img: libraries/tuilwindcss.png
   official: false
   pushed_at: '2023-08-07T17:00:41Z'
-  stars: 131
+  stars: 132
   url: https://github.com/koaning/tuilwindcss
 
 zandev_textual_widgets:
@@ -250,5 +250,5 @@ zandev_textual_widgets:
   img: libraries/zandev_textual_widgets.png
   official: false
   pushed_at: '2025-02-02T18:42:52Z'
-  stars: 15
+  stars: 16
   url: https://github.com/ZandevOxford/zandev_textual_widgets
