@@ -138,7 +138,7 @@ textual-plot:
   description: A native plotting widget for Textual apps with zooming/panning support.
   img: libraries/textual-plot.png
   official: false
-  pushed_at: '2025-05-02T07:40:47Z'
+  pushed_at: '2025-05-18T14:40:35Z'
   stars: 13
   url: https://github.com/davidfokkema/textual-plot
 
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 159
+  stars: 160
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-05-14T10:47:38Z'
+  pushed_at: '2025-05-18T09:52:39Z'
   stars: 2
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
