@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-05-18T09:52:39Z'
+  pushed_at: '2025-05-22T18:17:18Z'
   stars: 2
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
