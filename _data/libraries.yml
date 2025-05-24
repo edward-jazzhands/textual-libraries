@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 202
+  stars: 201
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 74
+  stars: 75
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -139,7 +139,7 @@ textual-plot:
   img: libraries/textual-plot.png
   official: false
   pushed_at: '2025-05-18T14:40:35Z'
-  stars: 13
+  stars: 14
   url: https://github.com/davidfokkema/textual-plot
 
 textual-plotext:
@@ -158,7 +158,7 @@ textual-pyfiglet:
   img: libraries/textual-pyfiglet.png
   official: false
   pushed_at: '2025-05-22T18:17:18Z'
-  stars: 2
+  stars: 4
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
 textual-qrcode:
@@ -178,7 +178,7 @@ textual-slidecontainer:
   img: libraries/textual-slidecontainer.png
   official: false
   pushed_at: '2025-05-14T10:44:41Z'
-  stars: 7
+  stars: 9
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
 textual-slider:
