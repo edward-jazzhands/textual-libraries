@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 298
+  stars: 299
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -139,7 +139,7 @@ textual-plot:
   img: libraries/textual-plot.png
   official: false
   pushed_at: '2025-05-24T13:24:09Z'
-  stars: 14
+  stars: 15
   url: https://github.com/davidfokkema/textual-plot
 
 textual-plotext:
