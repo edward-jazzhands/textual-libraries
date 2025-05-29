@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 201
+  stars: 202
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -92,7 +92,7 @@ textual-fspicker:
   description: A Textual widget library for picking things in the filesystem.
   img: libraries/textual-fspicker.png
   official: false
-  pushed_at: '2025-04-05T09:43:22Z'
+  pushed_at: '2025-05-28T15:13:00Z'
   stars: 53
   url: https://github.com/davep/textual-fspicker
 
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 75
+  stars: 76
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -130,7 +130,7 @@ textual-pandas:
   img: libraries/textual-pandas.png
   official: false
   pushed_at: '2025-04-19T02:08:55Z'
-  stars: 34
+  stars: 35
   url: https://github.com/dannywade/textual-pandas
 
 textual-plot:
