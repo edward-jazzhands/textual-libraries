@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 202
+  stars: 203
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-05-28T15:13:00Z'
-  stars: 53
+  stars: 54
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -241,7 +241,7 @@ tuilwindcss:
   img: libraries/tuilwindcss.png
   official: false
   pushed_at: '2023-08-07T17:00:41Z'
-  stars: 132
+  stars: 133
   url: https://github.com/koaning/tuilwindcss
 
 zandev_textual_widgets:
