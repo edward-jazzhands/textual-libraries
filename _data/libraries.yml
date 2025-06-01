@@ -138,7 +138,7 @@ textual-plot:
   description: A native plotting widget for Textual apps with zooming/panning support.
   img: libraries/textual-plot.png
   official: false
-  pushed_at: '2025-05-30T13:38:42Z'
+  pushed_at: '2025-05-31T09:56:36Z'
   stars: 15
   url: https://github.com/davidfokkema/textual-plot
 
