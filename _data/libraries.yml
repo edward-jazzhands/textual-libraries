@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 300
+  stars: 301
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 202
+  stars: 203
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 76
+  stars: 77
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -250,5 +250,5 @@ zandev_textual_widgets:
   img: libraries/zandev_textual_widgets.png
   official: false
   pushed_at: '2025-02-02T18:42:52Z'
-  stars: 16
+  stars: 18
   url: https://github.com/ZandevOxford/zandev_textual_widgets
