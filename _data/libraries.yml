@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 203
+  stars: 204
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -41,7 +41,7 @@ textual-canvas:
   img: libraries/textual-canvas.png
   official: false
   pushed_at: '2025-05-11T07:59:37Z'
-  stars: 36
+  stars: 37
   url: https://github.com/davep/textual-canvas
 
 textual-countdown:
@@ -84,7 +84,7 @@ textual-filedrop:
   img: libraries/textual-filedrop.png
   official: false
   pushed_at: '2023-03-22T17:59:15Z'
-  stars: 33
+  stars: 34
   url: https://github.com/agmmnn/textual-filedrop
 
 textual-fspicker:
@@ -121,7 +121,7 @@ textual-imageview:
   img: libraries/textual-imageview.png
   official: false
   pushed_at: '2023-01-08T05:18:54Z'
-  stars: 122
+  stars: 123
   url: https://github.com/adamviola/textual-imageview
 
 textual-pandas:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-05-22T18:17:18Z'
+  pushed_at: '2025-06-06T05:06:58Z'
   stars: 6
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
@@ -231,7 +231,7 @@ textual-universal-directorytree:
   img: libraries/textual-universal-directorytree.png
   official: false
   pushed_at: '2025-04-14T01:54:01Z'
-  stars: 28
+  stars: 29
   url: https://github.com/juftin/textual-universal-directorytree
 
 tuilwindcss:
