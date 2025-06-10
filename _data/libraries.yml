@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-04-01T19:39:12Z'
-  stars: 77
+  stars: 78
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -187,7 +187,7 @@ textual-slider:
   img: libraries/textual-slider.png
   official: false
   pushed_at: '2025-01-24T18:39:54Z'
-  stars: 22
+  stars: 23
   url: https://github.com/TomJGooding/textual-slider
 
 textual-spinbox:
