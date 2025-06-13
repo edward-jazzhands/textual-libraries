@@ -4,7 +4,7 @@ pytest-textual-snapshot:
   img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-04-26T15:45:15Z'
-  stars: 35
+  stars: 36
   url: https://github.com/Textualize/pytest-textual-snapshot
 
 rich-pixels:
@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 204
+  stars: 205
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -41,7 +41,7 @@ textual-canvas:
   img: libraries/textual-canvas.png
   official: false
   pushed_at: '2025-05-11T07:59:37Z'
-  stars: 37
+  stars: 38
   url: https://github.com/davep/textual-canvas
 
 textual-countdown:
