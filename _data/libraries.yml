@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 305
+  stars: 306
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -84,7 +84,7 @@ textual-filedrop:
   img: libraries/textual-filedrop.png
   official: false
   pushed_at: '2023-03-22T17:59:15Z'
-  stars: 34
+  stars: 35
   url: https://github.com/agmmnn/textual-filedrop
 
 textual-fspicker:
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 161
+  stars: 162
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-06-18T00:28:47Z'
+  pushed_at: '2025-06-22T22:39:07Z'
   stars: 6
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
