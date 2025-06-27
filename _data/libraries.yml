@@ -92,7 +92,7 @@ textual-fspicker:
   description: A Textual widget library for picking things in the filesystem.
   img: libraries/textual-fspicker.png
   official: false
-  pushed_at: '2025-06-23T15:11:43Z'
+  pushed_at: '2025-06-26T07:27:54Z'
   stars: 54
   url: https://github.com/davep/textual-fspicker
 
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-06-18T08:15:42Z'
-  stars: 80
+  stars: 82
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
