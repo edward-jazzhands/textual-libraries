@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 316
+  stars: 317
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -23,7 +23,7 @@ textual-astview:
   img: libraries/textual-astview.png
   official: false
   pushed_at: '2023-10-10T20:12:23Z'
-  stars: 92
+  stars: 93
   url: https://github.com/davep/textual-astview
 
 textual-autocomplete:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-06-26T07:27:54Z'
-  stars: 54
+  stars: 55
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 162
+  stars: 163
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
