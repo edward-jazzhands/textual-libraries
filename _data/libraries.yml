@@ -4,7 +4,7 @@ pytest-textual-snapshot:
   img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-04-26T15:45:15Z'
-  stars: 36
+  stars: 37
   url: https://github.com/Textualize/pytest-textual-snapshot
 
 rich-pixels:
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-06-18T08:15:42Z'
-  stars: 85
+  stars: 86
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
