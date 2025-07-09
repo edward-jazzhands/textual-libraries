@@ -101,8 +101,8 @@ textual-hires-canvas:
   description: High-resolution drawing canvas for Textual apps.
   img: libraries/textual-hires-canvas.png
   official: false
-  pushed_at: '2025-05-24T13:37:47Z'
-  stars: 11
+  pushed_at: '2025-07-08T19:32:30Z'
+  stars: 12
   url: https://github.com/davidfokkema/textual-hires-canvas
 
 textual-image:
@@ -139,7 +139,7 @@ textual-plot:
   img: libraries/textual-plot.png
   official: false
   pushed_at: '2025-06-13T14:27:19Z'
-  stars: 15
+  stars: 16
   url: https://github.com/davidfokkema/textual-plot
 
 textual-plotext:
