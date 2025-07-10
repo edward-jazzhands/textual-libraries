@@ -177,7 +177,7 @@ textual-slidecontainer:
     sliding or hidden menu bars.
   img: libraries/textual-slidecontainer.png
   official: false
-  pushed_at: '2025-06-18T00:53:30Z'
+  pushed_at: '2025-07-09T19:42:24Z'
   stars: 10
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
@@ -241,7 +241,7 @@ tuilwindcss:
   img: libraries/tuilwindcss.png
   official: false
   pushed_at: '2023-08-07T17:00:41Z'
-  stars: 133
+  stars: 140
   url: https://github.com/koaning/tuilwindcss
 
 zandev_textual_widgets:
