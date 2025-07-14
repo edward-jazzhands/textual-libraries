@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 320
+  stars: 321
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 209
+  stars: 210
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -84,7 +84,7 @@ textual-filedrop:
   img: libraries/textual-filedrop.png
   official: false
   pushed_at: '2023-03-22T17:59:15Z'
-  stars: 36
+  stars: 37
   url: https://github.com/agmmnn/textual-filedrop
 
 textual-fspicker:
@@ -101,7 +101,7 @@ textual-hires-canvas:
   description: High-resolution drawing canvas for Textual apps.
   img: libraries/textual-hires-canvas.png
   official: false
-  pushed_at: '2025-07-11T20:45:28Z'
+  pushed_at: '2025-07-13T18:28:52Z'
   stars: 12
   url: https://github.com/davidfokkema/textual-hires-canvas
 
@@ -138,7 +138,7 @@ textual-plot:
   description: A native plotting widget for Textual apps with zooming/panning support.
   img: libraries/textual-plot.png
   official: false
-  pushed_at: '2025-06-13T14:27:19Z'
+  pushed_at: '2025-07-13T18:38:30Z'
   stars: 17
   url: https://github.com/davidfokkema/textual-plot
 
@@ -177,7 +177,7 @@ textual-slidecontainer:
     sliding or hidden menu bars.
   img: libraries/textual-slidecontainer.png
   official: false
-  pushed_at: '2025-07-09T19:42:24Z'
+  pushed_at: '2025-07-13T05:40:40Z'
   stars: 10
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
@@ -222,7 +222,7 @@ textual-terminal:
   img: libraries/textual-terminal.png
   official: false
   pushed_at: '2024-06-27T13:36:52Z'
-  stars: 108
+  stars: 109
   url: https://github.com/mitosch/textual-terminal
 
 textual-universal-directorytree:
@@ -231,7 +231,7 @@ textual-universal-directorytree:
   img: libraries/textual-universal-directorytree.png
   official: false
   pushed_at: '2025-04-14T01:54:01Z'
-  stars: 29
+  stars: 30
   url: https://github.com/juftin/textual-universal-directorytree
 
 tuilwindcss:
@@ -241,7 +241,7 @@ tuilwindcss:
   img: libraries/tuilwindcss.png
   official: false
   pushed_at: '2023-08-07T17:00:41Z'
-  stars: 149
+  stars: 148
   url: https://github.com/koaning/tuilwindcss
 
 zandev_textual_widgets:
