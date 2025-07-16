@@ -22,7 +22,7 @@ textual-astview:
     tree.
   img: libraries/textual-astview.png
   official: false
-  pushed_at: '2023-10-10T20:12:23Z'
+  pushed_at: '2025-07-15T10:51:02Z'
   stars: 93
   url: https://github.com/davep/textual-astview
 
@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 210
+  stars: 211
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-06-26T07:27:54Z'
-  stars: 55
+  stars: 56
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -121,7 +121,7 @@ textual-imageview:
   img: libraries/textual-imageview.png
   official: false
   pushed_at: '2023-01-08T05:18:54Z'
-  stars: 123
+  stars: 124
   url: https://github.com/adamviola/textual-imageview
 
 textual-pandas:
