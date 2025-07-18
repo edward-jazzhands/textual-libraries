@@ -4,7 +4,7 @@ pytest-textual-snapshot:
   img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-04-26T15:45:15Z'
-  stars: 37
+  stars: 38
   url: https://github.com/Textualize/pytest-textual-snapshot
 
 rich-pixels:
@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 322
+  stars: 323
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-06-26T07:27:54Z'
-  stars: 56
+  stars: 57
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-06-18T08:15:42Z'
-  stars: 90
+  stars: 91
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
