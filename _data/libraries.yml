@@ -139,7 +139,7 @@ textual-plot:
   img: libraries/textual-plot.png
   official: false
   pushed_at: '2025-07-16T20:41:23Z'
-  stars: 17
+  stars: 18
   url: https://github.com/davidfokkema/textual-plot
 
 textual-plotext:
