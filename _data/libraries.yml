@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 325
+  stars: 326
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -84,7 +84,7 @@ textual-filedrop:
   img: libraries/textual-filedrop.png
   official: false
   pushed_at: '2023-03-22T17:59:15Z'
-  stars: 38
+  stars: 39
   url: https://github.com/agmmnn/textual-filedrop
 
 textual-fspicker:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-06-26T07:27:54Z'
-  stars: 59
+  stars: 60
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-06-18T08:15:42Z'
-  stars: 92
+  stars: 94
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -121,7 +121,7 @@ textual-imageview:
   img: libraries/textual-imageview.png
   official: false
   pushed_at: '2023-01-08T05:18:54Z'
-  stars: 124
+  stars: 125
   url: https://github.com/adamviola/textual-imageview
 
 textual-pandas:
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 167
+  stars: 168
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-06-22T22:39:07Z'
+  pushed_at: '2025-07-23T09:13:38Z'
   stars: 10
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
@@ -177,8 +177,8 @@ textual-slidecontainer:
     sliding or hidden menu bars.
   img: libraries/textual-slidecontainer.png
   official: false
-  pushed_at: '2025-07-13T05:40:40Z'
-  stars: 10
+  pushed_at: '2025-07-23T09:20:45Z'
+  stars: 11
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
 textual-slider:
@@ -222,7 +222,7 @@ textual-terminal:
   img: libraries/textual-terminal.png
   official: false
   pushed_at: '2024-06-27T13:36:52Z'
-  stars: 109
+  stars: 110
   url: https://github.com/mitosch/textual-terminal
 
 textual-universal-directorytree:
@@ -241,7 +241,7 @@ tuilwindcss:
   img: libraries/tuilwindcss.png
   official: false
   pushed_at: '2023-08-07T17:00:41Z'
-  stars: 148
+  stars: 149
   url: https://github.com/koaning/tuilwindcss
 
 zandev_textual_widgets:
