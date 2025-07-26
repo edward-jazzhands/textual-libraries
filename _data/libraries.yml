@@ -41,7 +41,7 @@ textual-canvas:
   img: libraries/textual-canvas.png
   official: false
   pushed_at: '2025-07-21T07:52:44Z'
-  stars: 40
+  stars: 41
   url: https://github.com/davep/textual-canvas
 
 textual-countdown:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-07-24T19:11:53Z'
+  pushed_at: '2025-07-25T09:09:12Z'
   stars: 10
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
@@ -177,7 +177,7 @@ textual-slidecontainer:
     sliding or hidden menu bars.
   img: libraries/textual-slidecontainer.png
   official: false
-  pushed_at: '2025-07-23T09:20:45Z'
+  pushed_at: '2025-07-25T09:22:50Z'
   stars: 11
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
