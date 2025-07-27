@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 329
+  stars: 330
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-06-26T07:27:54Z'
-  stars: 60
+  stars: 61
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -121,7 +121,7 @@ textual-imageview:
   img: libraries/textual-imageview.png
   official: false
   pushed_at: '2023-01-08T05:18:54Z'
-  stars: 125
+  stars: 126
   url: https://github.com/adamviola/textual-imageview
 
 textual-pandas:
@@ -177,7 +177,7 @@ textual-slidecontainer:
     sliding or hidden menu bars.
   img: libraries/textual-slidecontainer.png
   official: false
-  pushed_at: '2025-07-25T09:22:50Z'
+  pushed_at: '2025-07-26T20:20:36Z'
   stars: 11
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
