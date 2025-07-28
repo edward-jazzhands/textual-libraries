@@ -4,7 +4,7 @@ pytest-textual-snapshot:
   img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-04-26T15:45:15Z'
-  stars: 38
+  stars: 39
   url: https://github.com/Textualize/pytest-textual-snapshot
 
 rich-pixels:
@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 330
+  stars: 331
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-03-23T23:38:51Z'
-  stars: 213
+  stars: 214
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-06-18T08:15:42Z'
-  stars: 94
+  stars: 95
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -121,7 +121,7 @@ textual-imageview:
   img: libraries/textual-imageview.png
   official: false
   pushed_at: '2023-01-08T05:18:54Z'
-  stars: 126
+  stars: 127
   url: https://github.com/adamviola/textual-imageview
 
 textual-pandas:
@@ -130,7 +130,7 @@ textual-pandas:
   img: libraries/textual-pandas.png
   official: false
   pushed_at: '2025-04-19T02:08:55Z'
-  stars: 35
+  stars: 36
   url: https://github.com/dannywade/textual-pandas
 
 textual-plot:
@@ -139,7 +139,7 @@ textual-plot:
   img: libraries/textual-plot.png
   official: false
   pushed_at: '2025-07-16T20:41:23Z'
-  stars: 18
+  stars: 20
   url: https://github.com/davidfokkema/textual-plot
 
 textual-plotext:
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 169
+  stars: 172
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
@@ -168,7 +168,7 @@ textual-qrcode:
   img: libraries/textual-qrcode.png
   official: false
   pushed_at: '2023-02-18T18:26:36Z'
-  stars: 10
+  stars: 11
   url: https://github.com/davep/textual-qrcode
 
 textual-slidecontainer:
@@ -178,7 +178,7 @@ textual-slidecontainer:
   img: libraries/textual-slidecontainer.png
   official: false
   pushed_at: '2025-07-26T20:20:36Z'
-  stars: 11
+  stars: 12
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
 textual-slider:
@@ -187,7 +187,7 @@ textual-slider:
   img: libraries/textual-slider.png
   official: false
   pushed_at: '2025-01-24T18:39:54Z'
-  stars: 26
+  stars: 27
   url: https://github.com/TomJGooding/textual-slider
 
 textual-spinbox:
@@ -196,7 +196,7 @@ textual-spinbox:
   img: libraries/textual-spinbox.png
   official: false
   pushed_at: '2025-01-07T21:41:01Z'
-  stars: 7
+  stars: 8
   url: https://github.com/friscorose/textual-spinbox
 
 textual-syntax-highlighter-for-neovim:
@@ -222,7 +222,7 @@ textual-terminal:
   img: libraries/textual-terminal.png
   official: false
   pushed_at: '2024-06-27T13:36:52Z'
-  stars: 110
+  stars: 112
   url: https://github.com/mitosch/textual-terminal
 
 textual-universal-directorytree:
@@ -231,7 +231,7 @@ textual-universal-directorytree:
   img: libraries/textual-universal-directorytree.png
   official: false
   pushed_at: '2025-04-14T01:54:01Z'
-  stars: 31
+  stars: 32
   url: https://github.com/juftin/textual-universal-directorytree
 
 tuilwindcss:
@@ -241,7 +241,7 @@ tuilwindcss:
   img: libraries/tuilwindcss.png
   official: false
   pushed_at: '2023-08-07T17:00:41Z'
-  stars: 150
+  stars: 151
   url: https://github.com/koaning/tuilwindcss
 
 zandev_textual_widgets:
@@ -250,5 +250,5 @@ zandev_textual_widgets:
   img: libraries/zandev_textual_widgets.png
   official: false
   pushed_at: '2025-02-02T18:42:52Z'
-  stars: 18
+  stars: 19
   url: https://github.com/ZandevOxford/zandev_textual_widgets
