@@ -4,7 +4,7 @@ pytest-textual-snapshot:
   img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-04-26T15:45:15Z'
-  stars: 39
+  stars: 40
   url: https://github.com/Textualize/pytest-textual-snapshot
 
 rich-pixels:
@@ -31,8 +31,8 @@ textual-autocomplete:
   description: Add autocompletion to your Textual applications.
   img: libraries/textual-autocomplete.png
   official: false
-  pushed_at: '2025-03-23T23:38:51Z'
-  stars: 215
+  pushed_at: '2025-07-29T21:55:41Z'
+  stars: 216
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -177,7 +177,7 @@ textual-slidecontainer:
     sliding or hidden menu bars.
   img: libraries/textual-slidecontainer.png
   official: false
-  pushed_at: '2025-07-28T06:42:19Z'
+  pushed_at: '2025-07-29T12:20:31Z'
   stars: 12
   url: https://github.com/edward-jazzhands/textual-slidecontainer
 
