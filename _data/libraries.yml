@@ -93,7 +93,7 @@ textual-fspicker:
   img: libraries/textual-fspicker.png
   official: false
   pushed_at: '2025-06-26T07:27:54Z'
-  stars: 61
+  stars: 62
   url: https://github.com/davep/textual-fspicker
 
 textual-hires-canvas:
@@ -157,7 +157,7 @@ textual-pyfiglet:
   description: Library that provides a 'FigletWidget' to integrate PyFiglet into Textual
   img: libraries/textual-pyfiglet.png
   official: false
-  pushed_at: '2025-07-28T10:28:47Z'
+  pushed_at: '2025-07-30T08:25:26Z'
   stars: 10
   url: https://github.com/edward-jazzhands/textual-pyfiglet
 
