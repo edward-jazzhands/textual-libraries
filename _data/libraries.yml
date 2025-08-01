@@ -32,7 +32,7 @@ textual-autocomplete:
   img: libraries/textual-autocomplete.png
   official: false
   pushed_at: '2025-07-29T21:55:41Z'
-  stars: 216
+  stars: 217
   url: https://github.com/darrenburns/textual-autocomplete
 
 textual-canvas:
@@ -102,7 +102,7 @@ textual-hires-canvas:
   img: libraries/textual-hires-canvas.png
   official: false
   pushed_at: '2025-07-16T14:14:14Z'
-  stars: 12
+  stars: 14
   url: https://github.com/davidfokkema/textual-hires-canvas
 
 textual-image:
@@ -112,7 +112,7 @@ textual-image:
   img: libraries/textual-image.png
   official: false
   pushed_at: '2025-06-18T08:15:42Z'
-  stars: 95
+  stars: 96
   url: https://github.com/lnqs/textual-image
 
 textual-imageview:
@@ -149,7 +149,7 @@ textual-plotext:
   img: libraries/textual-plotext.png
   official: true
   pushed_at: '2024-11-30T19:25:02Z'
-  stars: 172
+  stars: 173
   url: https://github.com/Textualize/textual-plotext
 
 textual-pyfiglet:
@@ -187,7 +187,7 @@ textual-slider:
   img: libraries/textual-slider.png
   official: false
   pushed_at: '2025-01-24T18:39:54Z'
-  stars: 27
+  stars: 28
   url: https://github.com/TomJGooding/textual-slider
 
 textual-spinbox:
@@ -222,7 +222,7 @@ textual-terminal:
   img: libraries/textual-terminal.png
   official: false
   pushed_at: '2024-06-27T13:36:52Z'
-  stars: 112
+  stars: 113
   url: https://github.com/mitosch/textual-terminal
 
 textual-universal-directorytree:
@@ -231,7 +231,7 @@ textual-universal-directorytree:
   img: libraries/textual-universal-directorytree.png
   official: false
   pushed_at: '2025-04-14T01:54:01Z'
-  stars: 32
+  stars: 33
   url: https://github.com/juftin/textual-universal-directorytree
 
 tuilwindcss:
@@ -241,7 +241,7 @@ tuilwindcss:
   img: libraries/tuilwindcss.png
   official: false
   pushed_at: '2023-08-07T17:00:41Z'
-  stars: 151
+  stars: 152
   url: https://github.com/koaning/tuilwindcss
 
 zandev_textual_widgets:
