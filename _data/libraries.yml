@@ -4,7 +4,7 @@ pytest-textual-snapshot:
   img: libraries/pytest-textual-snapshot.png
   official: true
   pushed_at: '2025-04-26T15:45:15Z'
-  stars: 40
+  stars: 39
   url: https://github.com/Textualize/pytest-textual-snapshot
 
 rich-pixels:
@@ -13,7 +13,7 @@ rich-pixels:
   img: libraries/rich-pixels.png
   official: false
   pushed_at: '2024-10-18T09:50:15Z'
-  stars: 332
+  stars: 334
   url: https://github.com/darrenburns/rich-pixels
 
 textual-astview:
@@ -231,7 +231,7 @@ textual-universal-directorytree:
   img: libraries/textual-universal-directorytree.png
   official: false
   pushed_at: '2025-04-14T01:54:01Z'
-  stars: 33
+  stars: 34
   url: https://github.com/juftin/textual-universal-directorytree
 
 tuilwindcss:
